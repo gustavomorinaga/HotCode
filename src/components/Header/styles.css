@@ -1,0 +1,11 @@
+header {
+	position: fixed;
+	width: 100vw;
+	height: 10vh;
+	left: 0px;
+  top: 0px;
+  z-index: 100;
+  
+  background: #000000;
+  border-bottom: 2px solid #7209B7;
+}

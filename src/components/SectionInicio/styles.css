@@ -1,0 +1,15 @@
+.section-inicio {
+  width: 100vw;
+  height: 100vh;
+
+  background: #000;
+}
+
+.section-inicio .bloom {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 50%;
+
+  background: radial-gradient(circle, rgba(114,9,183,0.25) 0%, rgba(58,12,163,0.25) 100%);
+  filter: blur(100px);
+}
