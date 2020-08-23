@@ -3,6 +3,8 @@
   height: 100vh;
 
   background: #000;
+  color: white;
+  font-family: Roboto;
 }
 
 .section-inicio .bloom {
@@ -10,6 +12,73 @@
   height: 100vh;
   border-radius: 50%;
 
-  background: radial-gradient(circle, rgba(114,9,183,0.25) 0%, rgba(58,12,163,0.25) 100%);
+  background: radial-gradient(circle, rgba(114,9,183,0.25) 0%, rgba(12, 52, 163, 0.25) 100%);
   filter: blur(100px);
+}
+
+.particle-texts {
+  position: absolute;
+  width: 100%;
+  top: var(--bodyPaddingTop);
+  padding: 5%;
+}
+
+.particle-texts h1 {
+  font-family: 'Fira Code', monospace;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.particle-texts p {
+  text-shadow: 0px 4px 5px rgba(0, 0, 0, 1);
+
+  width: 50%;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.green-highlight {
+  color: #40ff53;
+}
+
+.yellow-highlight {
+  color: #ffef62;
+}
+
+.code-icon {
+  position: absolute;
+  top: 30vh;
+  right: 5%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.code-icon code {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 144px;
+  line-height: 150px;
+
+  background: linear-gradient(110deg, rgba(255, 255, 255, 0.6) 45%, #FFF 50%, rgba(255, 255, 255, 0.6) 55%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
 }

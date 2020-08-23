@@ -1,45 +1,55 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Fira+Code:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
-    --color-background: #1a1b1a;
-    --color-primary: #e31837;
-    --color-secundary: #F0F0F7;
-  
-    font-size: 60%;
+	--color-background: #1a1b1a;
+	--color-primary: #e31837;
+	--color-secondary: #f0f0f7;
+
+	font-size: 60%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-html, body, #root {
-    height: 100vh;
+html,
+body,
+#root {
+	height: 100vh;
 }
 
 body {
-    background: var(--color-background);
+	background: var(--color-background);
+
+	--bodyPaddingTop: 10vh;
 }
 
 #root {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: calc(100vh - var(--bodyPaddingTop));
 }
 
 body,
 input,
 button,
 textarea {
-    font: 500 1.6rem Poppins;
+	font: 500 1.6rem Roboto;
 }
 
 .container {
-    width: 90vw;
-    max-width: 700px;
+	width: 90vw;
+	max-width: 700px;
 }
 
 @media (min-width: 700px) {
-    :root {
-        font-size: 62.5%;
-    }
+	:root {
+		font-size: 62.5%;
+	}
 }
