@@ -1,11 +1,10 @@
 .section-sobre {
   width: 100%;
   height: 90vh;
-}
 
-.section-sobre .bloom {
-  width: 100%;
-  height: 100%;
-
-  background: #fff;
+  background: url('../../assets/images/WaveParticles.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
 }
