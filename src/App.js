@@ -2,15 +2,19 @@ import React from 'react';
 
 import Header from './components/Header';
 import SectionInicio from './components/SectionInicio';
+import SectionSobre from './components/SectionSobre';
 
 // Easter Egg!
 console.log('Bora codar!');
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Header />
-      <SectionInicio />
+      <main>
+        <SectionInicio />
+        <SectionSobre />
+      </main>
     </div>
   );
 }
