@@ -1,10 +1,47 @@
 .section-sobre {
-  width: 100%;
+	width: 100%;
   height: 90vh;
+  
+  background: var(--color-black);
+}
 
-  background: url('../../assets/images/WaveParticles.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+.section-sobre .wave-particles {
+  width: 100%;
+  height: 100%;
+
+	background: url('../../assets/images/WaveParticles.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
   background-attachment: fixed;
+}
+
+.section-sobre .wave-particles .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+  color: var(--color-secondary);
+
+  padding: 5% 5% 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+.section-sobre .wave-particles h2 {
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  text-shadow: -6px 0px var(--color-primary);
+}
+
+.section-sobre .wave-particles p {
+  font-size: 36px;
+  line-height: 42px;
+
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }

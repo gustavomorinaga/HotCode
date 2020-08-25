@@ -1,5 +1,8 @@
 import React from 'react';
 import Particles from 'react-particles-js';
+import { Link, animateScroll as scroll } from "react-scroll";
+
+import ScrollArrow from '../ScrollArrow';
 
 import './styles.css';
 
@@ -53,7 +56,7 @@ function SectionInicio() {
   }
 
   return (
-    <section className="section-inicio">
+    <section className="section-inicio" id="inicio">
       <div className="bloom"></div>
       <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(4px)' }} />
       <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(2px)' }} />
@@ -70,6 +73,17 @@ function SectionInicio() {
             {`{</>}`}
           </code>
         </div>
+        <Link
+          activeClass="active"
+          to="sobre"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          style={{ width: '100%', height: '100%' }}
+        >
+          <ScrollArrow />
+        </Link>
       </div>
     </section>
   );

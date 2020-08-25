@@ -3,10 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Fira+Code:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-	--color-background: #1a1b1a;
-	--color-primary: #e31837;
+	--color-black: #000;
+	--color-blue: #3F84E5;
+	--color-blueDarken: #4361EE;
+	--color-gray: #969A97;
+	--color-grayDarken: #1a1b1a;
+	--color-highlight-green: #40ff53;
+	--color-highlight-yellow: #ffef62;
+	--color-primary: #7209b7;
 	--color-secondary: #f0f0f7;
-
+	--color-purpleDarken: #3a0ca3;
+	--color-logo: #bf60ff;
+	
 	font-size: 60%;
 }
 
@@ -20,11 +28,12 @@ html,
 body,
 #root {
 	height: 100vh;
+
+	cursor: default;
 }
 
 body {
-	background: var(--color-background);
-
+	background: var(--color-grayDarken);
 	--bodyPaddingTop: 10vh;
 }
 

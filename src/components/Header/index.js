@@ -1,23 +1,66 @@
 import React from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import './styles.css';
 import Logo from '../../assets/images/icons/logo.svg';
 
-function Header () {
+function Header() {
   return (
     <header>
       <div className="logo">
         Hot<b>Code</b>
-        <img src={Logo} alt="Logo"/>
+        <img src={Logo} alt="Logo" />
       </div>
       <nav>
         <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Aulas</a></li>
-          <li><a href="#">Agenda</a></li>
-          <li><a href="#">Comunidade</a></li>
-          <li><a href="#">Inscrição</a></li>
+          <li><Link
+            activeClass="active"
+            to="inicio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >Início</Link></li>
+          <li><Link
+            activeClass="active"
+            to="sobre"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >Sobre</Link></li>
+          <li><Link
+            activeClass="active"
+            to="aulas"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >Aulas</Link></li>
+          <li><Link
+            activeClass="active"
+            to="inicio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >Agenda</Link></li>
+          <li><Link
+            activeClass="active"
+            to="inicio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >Comunidade</Link></li>
+          <li><Link
+            activeClass="active"
+            to="inicio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >Inscrição</Link></li>
         </ul>
       </nav>
     </header>
