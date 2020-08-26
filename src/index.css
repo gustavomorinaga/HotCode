@@ -7,13 +7,14 @@
 	--color-blue: #3F84E5;
 	--color-blueDarken: #4361EE;
 	--color-gray: #969A97;
-	--color-grayDarken: #1a1b1a;
-	--color-highlight-green: #40ff53;
-	--color-highlight-yellow: #ffef62;
+	--color-grayDarken: #1a1a1b;
+	--color-highlight-green: #68f09c;
+	--color-highlight-yellow: #fff388;
 	--color-primary: #7209b7;
 	--color-secondary: #f0f0f7;
 	--color-purpleDarken: #3a0ca3;
 	--color-logo: #bf60ff;
+	--color-white: #fff;
 	
 	font-size: 60%;
 }

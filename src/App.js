@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 AOS.init({
   offset: 200,
   duration: 600,
-  easing: 'ease-in-sine',
+  easing: 'ease-in-out-sine',
   delay: 150,
   once: true
 });

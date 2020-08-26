@@ -9,9 +9,9 @@ function SectionSobre() {
   return (
     <section className="section-sobre" id="sobre">
       <div className="wave-particles">
-        <div className="content">
-          <h2>Sobre o evento</h2>
-          <p>
+        <div className="content-sobre">
+          <h2 data-aos="fade-down">Sobre o evento</h2>
+          <p data-aos="fade-up">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit a doloribus iure quasi. Incidunt voluptatibus est doloribus minus dolor nostrum libero dicta distinctio fugit minima magnam nemo, ad amet eaque?
           </p>
           <Link

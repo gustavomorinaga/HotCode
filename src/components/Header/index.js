@@ -7,10 +7,19 @@ import Logo from '../../assets/images/icons/logo.svg';
 function Header() {
   return (
     <header>
-      <div className="logo">
-        Hot<b>Code</b>
-        <img src={Logo} alt="Logo" />
-      </div>
+      <Link
+        activeClass="active"
+        to="inicio"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
+        <div className="logo">
+          Hot<b>Code</b>
+          <img src={Logo} alt="Logo" />
+        </div>
+      </Link>
       <nav>
         <ul>
           <li><Link

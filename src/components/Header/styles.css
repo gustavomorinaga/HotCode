@@ -25,6 +25,8 @@ header .logo {
 	font-size: 24px;
 	font-weight: 500;
 	font-style: italic;
+
+	cursor: pointer;
 }
 
 header .logo b {

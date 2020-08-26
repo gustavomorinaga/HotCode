@@ -16,14 +16,13 @@
   background-attachment: fixed;
 }
 
-.section-sobre .wave-particles .content {
+.section-sobre .wave-particles .content-sobre {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 
   text-align: center;
-  color: var(--color-secondary);
 
   padding: 5% 5% 0;
 
@@ -36,6 +35,7 @@
   font-weight: 700;
   letter-spacing: 2px;
 
+  color: var(--color-white);
   text-shadow: -6px 0px var(--color-primary);
 }
 
@@ -43,5 +43,6 @@
   font-size: 36px;
   line-height: 42px;
 
+  color: var(--color-secondary);
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
