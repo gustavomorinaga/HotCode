@@ -5,7 +5,7 @@ import './styles.css';
 
 function ScrollArrow() {
   return (
-    <div className="scroll-down">
+    <div className="scroll-down" data-aos="fade">
       <div className="arrow-content">
         <span>Role para baixo</span>
         <KeyboardArrowDownIcon className="arrow-down" />

@@ -62,16 +62,18 @@ function SectionInicio() {
       <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(2px)' }} />
       <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0 }} />
       <div className="particle-texts">
-        <h1>
+        <h1 data-aos="fade-down">
           console.<b className="green-highlight">log</b><b className="yellow-highlight">('Bora codar!')</b>;
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit a doloribus iure quasi. Incidunt voluptatibus est doloribus minus dolor nostrum libero dicta distinctio fugit minima magnam nemo, ad amet eaque?
-        </p>
-        <div className="code-icon">
-          <code>
-            {`{</>}`}
-          </code>
+        <div className="text-center">
+          <p data-aos="fade-right">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit a doloribus iure quasi. Incidunt voluptatibus est doloribus minus dolor nostrum libero dicta distinctio fugit minima magnam nemo, ad amet eaque?
+          </p>
+          <div className="code-icon" data-aos="fade">
+            <code>
+              {`{</>}`}
+            </code>
+          </div>
         </div>
         <Link
           activeClass="active"
