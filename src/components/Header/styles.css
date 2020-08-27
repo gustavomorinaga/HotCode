@@ -43,7 +43,6 @@ header .logo img {
 
 header nav ul {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 
@@ -55,7 +54,7 @@ header nav ul {
 header nav ul li {
 	letter-spacing: 2px;
 
-	padding: 10px;
+	margin: 0 10px;
 }
 
 header nav ul li a {
@@ -66,14 +65,16 @@ header nav ul li a {
 
 	color: white;
 
-	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 header nav ul li a:after {
 	content: '';
 	position: absolute;
 	left: 50%;
-	bottom: 0;
+	bottom: -10px;
 	transform: translateX(-50%) scaleX(0);
 	transform-origin: 50% 50%;
 	width: 100%;

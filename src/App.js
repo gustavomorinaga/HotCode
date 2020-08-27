@@ -4,6 +4,7 @@ import Header from './components/Header';
 import SectionInicio from './components/SectionInicio';
 import SectionSobre from './components/SectionSobre';
 import SectionAulas from './components/SectionAulas';
+import Footer from './components/Footer';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -28,6 +29,7 @@ function App() {
         <SectionSobre />
         <SectionAulas />
       </main>
+      <Footer />
     </div>
   );
 }

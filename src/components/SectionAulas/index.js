@@ -1,18 +1,23 @@
 import React from 'react';
 
+import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
+
 import './styles.css';
 
-import HTMLLogo from '../../assets/images/html.png';
-import CSSLogo from '../../assets/images/css.png';
-import ReactLogo from '../../assets/images/react.png';
+// Logos Front-End
+import HTMLLogo from '../../assets/images/logos/html.png';
+import CSSLogo from '../../assets/images/logos/css.png';
+import ReactLogo from '../../assets/images/logos/react.png';
 
-import NodeLogo from '../../assets/images/node.png';
-import GraphQLLogo from '../../assets/images/graphql.png';
-import InsomniaLogo from '../../assets/images/insomnia.png';
+// Logos Back-End
+import NodeLogo from '../../assets/images/logos/node.png';
+import GraphQLLogo from '../../assets/images/logos/graphql.png';
+import InsomniaLogo from '../../assets/images/logos/insomnia.png';
 
-import FigmaLogo from '../../assets/images/figma.png';
-import WhimsicalLogo from '../../assets/images/whimsical.png';
-import ExpoLogo from '../../assets/images/expo.png';
+// Logos Conteúdo Extra
+import FigmaLogo from '../../assets/images/logos/figma.png';
+import WhimsicalLogo from '../../assets/images/logos/whimsical.png';
+import ExpoLogo from '../../assets/images/logos/expo.png';
 
 function SectionAulas() {
   return (

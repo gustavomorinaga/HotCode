@@ -1,0 +1,35 @@
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	color: white;
+
+	background: var(--color-black);
+	border-top: 2px solid var(--color-primary);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 1px;
+  
+  padding: 1% 5% 5%;
+}
+
+footer .logo {
+	position: relative;
+	font-family: 'Electrolize', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	font-style: italic;
+
+	cursor: pointer;
+}
+
+footer .logo b {
+	color: var(--color-logo);
+}
+
+footer .logo img {
+	position: absolute;
+	top: 2px;
+	width: 30px;
+
+	transform: rotate(5deg);
+}

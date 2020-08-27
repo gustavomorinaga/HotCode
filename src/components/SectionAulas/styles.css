@@ -1,6 +1,6 @@
 .section-aulas {
   width: 100%;
-  height: 90vh;
+  height: auto;
 
   background: var(--color-grayDarken);
 
@@ -47,11 +47,23 @@
 .section-aulas .content-extra {
   align-items: flex-start;
   flex-direction: row;
+
+  background: url('../../assets/images/background-classes.svg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-aulas .content-backend {
   align-items: flex-start;
   flex-direction: row-reverse;
+
+  background: url('../../assets/images/background-classes-inverted.svg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-aulas .texts {
