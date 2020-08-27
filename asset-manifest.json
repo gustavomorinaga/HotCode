@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/HotCode/static/css/main.30d9edc1.chunk.css",
-    "main.js": "/HotCode/static/js/main.f3cd9215.chunk.js",
-    "main.js.map": "/HotCode/static/js/main.f3cd9215.chunk.js.map",
+    "main.css": "/HotCode/static/css/main.a001411f.chunk.css",
+    "main.js": "/HotCode/static/js/main.5283e7bf.chunk.js",
+    "main.js.map": "/HotCode/static/js/main.5283e7bf.chunk.js.map",
     "runtime-main.js": "/HotCode/static/js/runtime-main.1ead08c5.js",
     "runtime-main.js.map": "/HotCode/static/js/runtime-main.1ead08c5.js.map",
     "static/css/2.eb43dee1.chunk.css": "/HotCode/static/css/2.eb43dee1.chunk.css",
-    "static/js/2.f8575639.chunk.js": "/HotCode/static/js/2.f8575639.chunk.js",
-    "static/js/2.f8575639.chunk.js.map": "/HotCode/static/js/2.f8575639.chunk.js.map",
+    "static/js/2.62ed5659.chunk.js": "/HotCode/static/js/2.62ed5659.chunk.js",
+    "static/js/2.62ed5659.chunk.js.map": "/HotCode/static/js/2.62ed5659.chunk.js.map",
     "index.html": "/HotCode/index.html",
-    "precache-manifest.38de85ee0dc50c7c796b48d6f5ff2aff.js": "/HotCode/precache-manifest.38de85ee0dc50c7c796b48d6f5ff2aff.js",
+    "precache-manifest.07eaf60248be6a8cf8405cbe1732430b.js": "/HotCode/precache-manifest.07eaf60248be6a8cf8405cbe1732430b.js",
     "service-worker.js": "/HotCode/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/HotCode/static/css/2.eb43dee1.chunk.css.map",
-    "static/css/main.30d9edc1.chunk.css.map": "/HotCode/static/css/main.30d9edc1.chunk.css.map",
-    "static/js/2.f8575639.chunk.js.LICENSE.txt": "/HotCode/static/js/2.f8575639.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/HotCode/static/media/background-classes.49cc30af.svg",
+    "static/css/main.a001411f.chunk.css.map": "/HotCode/static/css/main.a001411f.chunk.css.map",
+    "static/js/2.62ed5659.chunk.js.LICENSE.txt": "/HotCode/static/js/2.62ed5659.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/HotCode/static/media/background-community.d6f806b7.svg",
     "static/media/expo.png": "/HotCode/static/media/expo.4bf4f348.png",
     "static/media/logo.svg": "/HotCode/static/media/logo.f1ae665d.svg",
     "static/media/node.png": "/HotCode/static/media/node.ea8cc211.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.1ead08c5.js",
     "static/css/2.eb43dee1.chunk.css",
-    "static/js/2.f8575639.chunk.js",
-    "static/css/main.30d9edc1.chunk.css",
-    "static/js/main.f3cd9215.chunk.js"
+    "static/js/2.62ed5659.chunk.js",
+    "static/css/main.a001411f.chunk.css",
+    "static/js/main.5283e7bf.chunk.js"
   ]
 }
