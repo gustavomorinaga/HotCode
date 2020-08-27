@@ -71,7 +71,7 @@ function Header() {
           ><ForumIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Comunidade</Link></li>
           <li><Link
             activeClass="active"
-            to="inicio"
+            to="inscricao"
             spy={true}
             smooth={true}
             offset={-70}

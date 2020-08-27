@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from "react-scroll";
+
+import ScrollArrow from '../ScrollArrow';
 
 import DiscordLogo from '../../assets/images/logos/discord.png';
 
@@ -19,6 +22,17 @@ function SectionComunidade () {
           </p>
         </div>
       </section>
+      <Link
+          activeClass="active"
+          to="inscricao"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          style={{ width: '100%', height: '100%' }}
+        >
+          <ScrollArrow />
+        </Link>
     </section>
   );
 }

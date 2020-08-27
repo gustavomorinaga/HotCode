@@ -5,6 +5,7 @@ import SectionInicio from './components/SectionInicio';
 import SectionSobre from './components/SectionSobre';
 import SectionAulas from './components/SectionAulas';
 import SectionComunidade from './components/SectionComunidade';
+import SectionInscricao from './components/SectionInscricao';
 import Footer from './components/Footer';
 
 import AOS from 'aos';
@@ -27,6 +28,7 @@ function App() {
         <SectionSobre />
         <SectionAulas />
         <SectionComunidade />
+        <SectionInscricao />
       </main>
       <Footer />
       {console.log('Bora codar!')}

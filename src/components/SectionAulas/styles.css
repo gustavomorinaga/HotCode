@@ -37,10 +37,17 @@
   width: 100%;
   height: 100%;
 
-  padding-bottom: 15vh;
-
   display: flex;
   justify-content: space-between;
+}
+
+.section-aulas .content-frontend,
+.section-aulas .content-backend {
+  padding-bottom: 20vh;
+}
+
+.section-aulas .content-extra {
+  padding-bottom: 15vh;
 }
 
 .section-aulas .content-frontend,
@@ -48,7 +55,7 @@
   align-items: flex-start;
   flex-direction: row;
 
-  background: url('../../assets/images/background-classes.svg');
+  background: url('../../assets/images/svgs/background-classes.svg');
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,7 +66,7 @@
   align-items: flex-start;
   flex-direction: row-reverse;
 
-  background: url('../../assets/images/background-classes-inverted.svg');
+  background: url('../../assets/images/svgs/background-classes-inverted.svg');
 
   background-size: cover;
   background-repeat: no-repeat;
