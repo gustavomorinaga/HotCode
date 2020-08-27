@@ -2,6 +2,8 @@ import React from 'react';
 
 import './styles.css';
 
+import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
+
 import NotebookImg from '../../assets/images/notebook.png';
 
 function SectionInscricao() {
@@ -18,9 +20,20 @@ function SectionInscricao() {
             Digite seu email abaixo para participar
           </p>
           <form>
-            <label for="email">
-              <input type="text" name="email" id="email" />
-            </label>
+            <div className="input-email">
+              <div className="email-icon">
+                <AlternateEmailIcon style={{ fontSize: '1.5em', color: 'var(--color-white)' }} />
+              </div>
+              <label for="email">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="E-Mail *"
+                  maxlength="60"
+                />
+              </label>
+            </div>
             <button>
               Quero participar
             </button>
