@@ -4,6 +4,7 @@ import Header from './components/Header';
 import SectionInicio from './components/SectionInicio';
 import SectionSobre from './components/SectionSobre';
 import SectionAulas from './components/SectionAulas';
+import SectionComunidade from './components/SectionComunidade';
 import Footer from './components/Footer';
 
 import AOS from 'aos';
@@ -17,9 +18,6 @@ AOS.init({
   once: true
 });
 
-// Easter Egg!
-console.log('Bora codar!');
-
 function App() {
   return (
     <div className="container">
@@ -28,8 +26,10 @@ function App() {
         <SectionInicio />
         <SectionSobre />
         <SectionAulas />
+        <SectionComunidade />
       </main>
       <Footer />
+      {console.log('Bora codar!')}
     </div>
   );
 }

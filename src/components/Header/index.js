@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import './styles.css';
 import Logo from '../../assets/images/icons/logo.svg';
@@ -63,7 +63,7 @@ function Header() {
           ><ScheduleIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Agenda</Link></li>
           <li><Link
             activeClass="active"
-            to="inicio"
+            to="comunidade"
             spy={true}
             smooth={true}
             offset={-70}

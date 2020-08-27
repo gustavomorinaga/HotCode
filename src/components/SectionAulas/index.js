@@ -31,9 +31,9 @@ function SectionAulas() {
           </p>
         </div>
         <div className="images images-right">
-          <img src={HTMLLogo} alt="HTML Logotipo" data-aos="fade"/>
-          <img src={CSSLogo} alt="CSS Logotipo" data-aos="fade" data-aos-delay="500"/>
-          <img src={ReactLogo} alt="React Logotipo" data-aos="fade" data-aos-delay="1000"/>
+          <img src={HTMLLogo} alt="HTML Logotipo" data-aos="fade" data-aos-anchor-placement="bottom-bottom"/>
+          <img src={CSSLogo} alt="CSS Logotipo" data-aos="fade" data-aos-delay="500" data-aos-anchor-placement="bottom-bottom"/>
+          <img src={ReactLogo} alt="React Logotipo" data-aos="fade" data-aos-delay="1000" data-aos-anchor-placement="bottom-bottom"/>
         </div>
       </section>
       <section className="content-backend">
@@ -44,9 +44,9 @@ function SectionAulas() {
           </p>
         </div>
         <div className="images images-left">
-          <img src={NodeLogo} alt="Node.JS Logotipo" data-aos="fade"/>
-          <img src={GraphQLLogo} alt="GraphQL Logotipo" data-aos="fade" data-aos-delay="500"/>
-          <img src={InsomniaLogo} alt="Insomnia Logotipo" data-aos="fade" data-aos-delay="1000"/>
+          <img src={NodeLogo} alt="Node.JS Logotipo" data-aos="fade" data-aos-anchor-placement="bottom-bottom"/>
+          <img src={GraphQLLogo} alt="GraphQL Logotipo" data-aos="fade" data-aos-delay="500" data-aos-anchor-placement="bottom-bottom"/>
+          <img src={InsomniaLogo} alt="Insomnia Logotipo" data-aos="fade" data-aos-delay="1000" data-aos-anchor-placement="bottom-bottom"/>
         </div>
       </section>
       <section className="content-extra">
@@ -57,9 +57,9 @@ function SectionAulas() {
           </p>
         </div>
         <div className="images images-right">
-          <img src={FigmaLogo} alt="Figma Logotipo" data-aos="fade"/>
-          <img src={WhimsicalLogo} alt="Whimsical Logotipo" data-aos="fade" data-aos-delay="500"/>
-          <img src={ExpoLogo} alt="Expo Logotipo" data-aos="fade" data-aos-delay="1000"/>
+          <img src={FigmaLogo} alt="Figma Logotipo" data-aos="fade" data-aos-anchor-placement="bottom-bottom"/>
+          <img src={WhimsicalLogo} alt="Whimsical Logotipo" data-aos="fade" data-aos-delay="500" data-aos-anchor-placement="bottom-bottom"/>
+          <img src={ExpoLogo} alt="Expo Logotipo" data-aos="fade" data-aos-delay="1000" data-aos-anchor-placement="bottom-bottom"/>
         </div>
       </section>
     </section>

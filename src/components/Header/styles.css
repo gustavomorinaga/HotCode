@@ -54,7 +54,11 @@ header nav ul {
 header nav ul li {
 	letter-spacing: 2px;
 
-	margin: 0 10px;
+	margin-left: 10px;
+}
+
+header nav ul li:not(:last-child) {
+	margin-right: 10px;
 }
 
 header nav ul li a {
