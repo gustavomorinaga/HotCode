@@ -11,11 +11,11 @@
 
   font-family: Roboto;
 
-  /* background: url('../../assets/images/svgs/background-community.svg');
+  background: url('../../assets/images/svgs/square-versatiles.svg');
 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
 }
 
 .section-inscricao h3 {
@@ -89,7 +89,6 @@
   color: var(--color-secondary);
 
   font-size: 24px;
-  font-size: 18px;
 
   text-align: center;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -152,6 +151,13 @@
   padding: 16px;
   
   resize: none;
+
+  transition: all .3s;
+}
+
+.section-inscricao .card-inscricao form input:focus {
+  background: #4d5257;
+  border: 1px solid #4d5257;
 }
 
 .section-inscricao .card-inscricao form button {

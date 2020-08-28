@@ -18,6 +18,7 @@ function Header() {
         activeClass="active"
         to="inicio"
         spy={true}
+        hashSpy={true}
         smooth={true}
         offset={-70}
         duration={500}
@@ -33,6 +34,7 @@ function Header() {
             activeClass="active"
             to="inicio"
             spy={true}
+            hashSpy={true}
             smooth={true}
             offset={-70}
             duration={500}
@@ -41,6 +43,7 @@ function Header() {
             activeClass="active"
             to="sobre"
             spy={true}
+            hashSpy={true}
             smooth={true}
             offset={-70}
             duration={500}
@@ -49,14 +52,16 @@ function Header() {
             activeClass="active"
             to="aulas"
             spy={true}
+            hashSpy={true}
             smooth={true}
-            offset={-70}
+            offset={-65}
             duration={500}
           ><ClassIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Aulas</Link></li>
           <li><Link
             activeClass="active"
             to="inicio"
             spy={true}
+            hashSpy={true}
             smooth={true}
             offset={-70}
             duration={500}
@@ -65,14 +70,17 @@ function Header() {
             activeClass="active"
             to="comunidade"
             spy={true}
+            hashSpy={true}
             smooth={true}
-            offset={-70}
+            offset={-65}
             duration={500}
+            isDynamic={true}
           ><ForumIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Comunidade</Link></li>
           <li><Link
             activeClass="active"
             to="inscricao"
             spy={true}
+            hashSpy={true}
             smooth={true}
             offset={-70}
             duration={500}

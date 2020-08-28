@@ -19,8 +19,8 @@ import ExpoLogo from '../../assets/images/logos/expo.png';
 
 function SectionAulas() {
   return (
-    <section className="section-aulas">
-      <h3 data-aos="zoom-out" id="aulas">Aulas</h3>
+    <section className="section-aulas" id="aulas">
+      <h3 data-aos="zoom-out">Aulas</h3>
       <section className="content-frontend">
         <div className="texts" data-aos="flip-right">
           <h4>Front-End</h4>

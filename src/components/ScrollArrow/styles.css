@@ -9,12 +9,13 @@
 	
 	color: var(--color-gray);
 	transition: color .3s;
+
+	margin-bottom: 5px;
 }
 
 .scroll-down .arrow-content {
 	display: flex;
 	align-items: center;
-  justify-content: flex-end;
 	flex-direction: column;
 
 	cursor: pointer;

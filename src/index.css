@@ -27,7 +27,7 @@
 	box-sizing: border-box;
 
 	scrollbar-color: var(--color-gray) var(--color-grayDarken);
-	scrollbar-arrow-color: var(--color-primary);
+	scroll-behavior: smooth;
 }
 
 html,
@@ -73,4 +73,6 @@ textarea {
 main {
 	width: 100%;
 	max-width: 100%;
+
+	scroll-snap-type: y mandatory;
 }

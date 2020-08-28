@@ -1,6 +1,6 @@
 .section-inicio {
 	width: 100%;
-	height: calc(100vh + 5px);
+	height: 100vh;
 
 	background: #000;
 	color: white;

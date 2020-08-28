@@ -93,3 +93,8 @@ header nav ul li a:hover:after {
 	transform: translateX(-50%) scaleX(1);
 	opacity: 1;
 }
+
+header nav ul li > .active:after {
+	transform: translateX(-50%) scaleX(1);
+	opacity: 1;
+}
