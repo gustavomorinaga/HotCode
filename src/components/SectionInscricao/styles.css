@@ -30,21 +30,14 @@
   text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
 }
 
-.section-inscricao p {
-  color: var(--color-secondary);
-
-  font-size: 24px;
-  line-height: 30px;
-}
-
 .section-inscricao .content-inscricao {
   width: 100%;
-  height: 100%;
+  height: 70%;
 
   display: flex;
   justify-content: space-between;
 
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -61,15 +54,23 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  align-self: center;
 }
 
-.section-inscricao h4 {
+.section-inscricao .card-inscricao h4 {
   font-weight: bold;
   font-size: 36px;
 
   margin-bottom: 3rem;
 
   color: var(--color-blue);
+}
+
+.section-inscricao .card-inscricao p {
+  color: var(--color-secondary);
+
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .section-inscricao .images {
@@ -79,7 +80,19 @@
   flex-direction: column;
 
   width: 50%;
-  height: 90%;
+  height: auto;
+}
+
+.section-inscricao .images p {
+  width: 75%;
+
+  color: var(--color-secondary);
+
+  font-size: 24px;
+  font-size: 18px;
+
+  text-align: center;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .section-inscricao .content-inscricao .images img {
@@ -119,6 +132,8 @@
 
 .section-inscricao .card-inscricao form .input-email label {
   width: 100%;
+
+  border-left: 1px solid var(--color-grayDark);
 }
 
 .section-inscricao .card-inscricao form input {
@@ -166,4 +181,6 @@
 
 .section-inscricao .card-inscricao form button:hover {
   background: var(--color-highlight-greenDarken);
+
+  border: 1px solid var(--color-highlight-greenDarken);
 }

@@ -12,6 +12,7 @@ function SectionInscricao() {
       <h3 data-aos="zoom-out">Inscrição</h3>
       <section className="content-inscricao">
         <div className="images" data-aos="fade">
+          <p>Você irá aprender a criar o seu próprio Netflix durante o evento!</p>
           <img src={NotebookImg} alt="Imagem de Notebook" />
         </div>
         <div className="card-inscricao" data-aos="flip-left">
