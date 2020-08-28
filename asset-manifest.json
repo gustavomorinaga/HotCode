@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/HotCode/static/css/main.5a0595e6.chunk.css",
-    "main.js": "/HotCode/static/js/main.89b64684.chunk.js",
-    "main.js.map": "/HotCode/static/js/main.89b64684.chunk.js.map",
+    "main.css": "/HotCode/static/css/main.926273c8.chunk.css",
+    "main.js": "/HotCode/static/js/main.916b3c0d.chunk.js",
+    "main.js.map": "/HotCode/static/js/main.916b3c0d.chunk.js.map",
     "runtime-main.js": "/HotCode/static/js/runtime-main.1ead08c5.js",
     "runtime-main.js.map": "/HotCode/static/js/runtime-main.1ead08c5.js.map",
     "static/css/2.eb43dee1.chunk.css": "/HotCode/static/css/2.eb43dee1.chunk.css",
     "static/js/2.afd88b74.chunk.js": "/HotCode/static/js/2.afd88b74.chunk.js",
     "static/js/2.afd88b74.chunk.js.map": "/HotCode/static/js/2.afd88b74.chunk.js.map",
     "index.html": "/HotCode/index.html",
-    "precache-manifest.36c1f1979f9fc061486ef9c26acb1252.js": "/HotCode/precache-manifest.36c1f1979f9fc061486ef9c26acb1252.js",
+    "precache-manifest.aa166fec7ab64fbe76b20229b486825c.js": "/HotCode/precache-manifest.aa166fec7ab64fbe76b20229b486825c.js",
     "service-worker.js": "/HotCode/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/HotCode/static/css/2.eb43dee1.chunk.css.map",
-    "static/css/main.5a0595e6.chunk.css.map": "/HotCode/static/css/main.5a0595e6.chunk.css.map",
+    "static/css/main.926273c8.chunk.css.map": "/HotCode/static/css/main.926273c8.chunk.css.map",
     "static/js/2.afd88b74.chunk.js.LICENSE.txt": "/HotCode/static/js/2.afd88b74.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/HotCode/static/media/background-community.d6f806b7.svg",
     "static/media/expo.png": "/HotCode/static/media/expo.4bf4f348.png",
     "static/media/logo.svg": "/HotCode/static/media/logo.f1ae665d.svg",
     "static/media/node.png": "/HotCode/static/media/node.ea8cc211.png",
-    "static/media/notebook.png": "/HotCode/static/media/notebook.52ab7cce.png",
+    "static/media/notebook.png": "/HotCode/static/media/notebook.11273905.png",
     "static/media/react.png": "/HotCode/static/media/react.693d85f1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1ead08c5.js",
     "static/css/2.eb43dee1.chunk.css",
     "static/js/2.afd88b74.chunk.js",
-    "static/css/main.5a0595e6.chunk.css",
-    "static/js/main.89b64684.chunk.js"
+    "static/css/main.926273c8.chunk.css",
+    "static/js/main.916b3c0d.chunk.js"
   ]
 }
