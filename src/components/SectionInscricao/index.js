@@ -18,7 +18,7 @@ function SectionInscricao() {
         <div className="card-inscricao" data-aos="flip-left">
           <h4>Inscreva-se para o evento</h4>
           <p>
-            Digite seu email abaixo para participar
+            Digite seu e-mail abaixo para participar, iremos-lhe mandar as próximas instruções:
           </p>
           <form>
             <div className="input-email">

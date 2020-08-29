@@ -59,11 +59,11 @@ function Header() {
           ><ClassIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Aulas</Link></li>
           <li><Link
             activeClass="active"
-            to="inicio"
+            to="agenda"
             spy={true}
             hashSpy={true}
             smooth={true}
-            offset={-70}
+            offset={-65}
             duration={500}
           ><ScheduleIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Agenda</Link></li>
           <li><Link

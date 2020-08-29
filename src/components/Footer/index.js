@@ -26,7 +26,7 @@ function Footer() {
         <a href="https://github.com/gmatthewsfeuer/HotCode" target="_blank"><GitHubIcon style={{ fontSize: '2em', color: '#fff' }} /></a>
       </div>
       <div className="footer-info">
-        <p>Vetor de plano de fundo criado por <a href="https://www.freepik.com/vectors/background" target="_blank">coolvector e starline</a></p>
+        <p>Vetores criados por <a href="https://www.freepik.com/vectors/background" target="_blank">coolvector, starline</a> e <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a></p>
       </div>
     </footer>
   );

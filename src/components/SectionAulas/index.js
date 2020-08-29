@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from "react-scroll";
+
+import ScrollArrow from '../ScrollArrow';
 
 import './styles.css';
 
@@ -60,6 +63,17 @@ function SectionAulas() {
           <img src={ExpoLogo} alt="Expo Logotipo" data-aos="fade" data-aos-delay="1000" data-aos-anchor-placement="bottom-bottom"/>
         </div>
       </section>
+      <Link
+        activeClass="active"
+        to="agenda"
+        spy={true}
+        smooth={true}
+        offset={-65}
+        duration={500}
+        style={{ width: '100%', height: '100%' }}
+      >
+        <ScrollArrow />
+      </Link>
     </section>
   );
 }

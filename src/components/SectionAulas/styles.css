@@ -43,11 +43,7 @@
 
 .section-aulas .content-frontend,
 .section-aulas .content-backend {
-  padding-bottom: 20vh;
-}
-
-.section-aulas .content-extra {
-  padding-bottom: 15vh;
+  padding-bottom: 19vh;
 }
 
 .section-aulas .content-frontend,
@@ -60,6 +56,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.section-aulas .content-extra {
+  background-position: 100% 25%;
 }
 
 .section-aulas .content-backend {
