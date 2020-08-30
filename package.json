@@ -21,14 +21,14 @@
     "react-scroll": "^1.8.1"
   },
   "scripts": {
+    "server": "node ./server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "concurrently \"react-scripts start\" \"npm run server\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "node ./server.js"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
