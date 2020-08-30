@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#3a0ca3" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <title>HotCode</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#3a0ca3" />
+		<meta
+			name="description"
+			content="Web site created using create-react-app"
+		/>
+		<title>HotCode</title>
+	</head>
+	<body>
+		<div id="root"></div>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			var firebaseConfig = {
+				apiKey: 'AIzaSyC5q9cdKkFy5GZLRBFwBA9VRdBbLXhkV4Y',
+				authDomain: 'hotcode-6b023.firebaseapp.com',
+				databaseURL: 'https://hotcode-6b023.firebaseio.com',
+				projectId: 'hotcode-6b023',
+				storageBucket: 'hotcode-6b023.appspot.com',
+				messagingSenderId: '252421914114',
+				appId: '1:252421914114:web:1dbdfd591f02d4c2ceb11b',
+				measurementId: 'G-QE5J2ZT923',
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
+	</body>
 </html>
