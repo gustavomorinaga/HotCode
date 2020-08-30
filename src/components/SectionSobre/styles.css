@@ -1,6 +1,6 @@
 .section-sobre {
 	width: 100%;
-  height: calc(90vh + 5px);
+  height: calc(90vh + 10px);
   
   background: var(--color-black);
 }

@@ -45,7 +45,7 @@ function Header() {
             spy={true}
             hashSpy={true}
             smooth={true}
-            offset={-70}
+            offset={-65}
             duration={500}
           ><InfoIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Sobre</Link></li>
           <li><Link

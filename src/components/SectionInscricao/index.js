@@ -1,5 +1,8 @@
 import React from 'react';
 
+import useForm from '../../hooks/useForm';
+import EmailRepository from '../../repositories/emails';
+
 import './styles.css';
 
 import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
@@ -7,6 +10,10 @@ import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import NotebookImg from '../../assets/images/notebook.png';
 
 function SectionInscricao() {
+  const { handleChange, values } = useForm({
+    email: '',
+  });
+
   return (
     <section className="section-inscricao" id="inscricao">
       <h3 data-aos="zoom-out">Inscrição</h3>
@@ -20,22 +27,34 @@ function SectionInscricao() {
           <p>
             Digite seu e-mail abaixo para participar, iremos-lhe mandar as próximas instruções:
           </p>
-          <form>
+          <form onSubmit={e => {
+            e.preventDefault();
+
+            EmailRepository.create({
+              email: values.email
+            }).then(() => {
+              alert('Inscrição realizada com sucesso!');
+            }).catch(() => {
+              alert('Erro ao inscrever-se no evento!');
+            });
+          }}>
             <div className="input-email">
               <div className="email-icon">
                 <AlternateEmailIcon style={{ fontSize: '1.5em', color: 'var(--color-white)' }} />
               </div>
-              <label for="email">
+              <label htmlFor="email">
                 <input
                   type="email"
                   name="email"
                   id="email"
+                  value={values.email}
                   placeholder="E-Mail *"
-                  maxlength="60"
+                  maxLength="60"
+                  onChange={handleChange}
                 />
               </label>
             </div>
-            <button>
+            <button type="submit">
               Quero participar
             </button>
           </form>
