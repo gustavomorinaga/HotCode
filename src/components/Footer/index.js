@@ -26,17 +26,17 @@ function Footer() {
         <a href="https://github.com/gmatthewsfeuer/HotCode" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{ fontSize: '2em', color: '#fff' }} /></a>
       </div>
       <div className="footer-info">
-        <p>Vetores criados por
+        <p>Vetores criados por {'\n'}
           <a href="https://www.freepik.com/vectors/background"
             target="_blank"
             rel="noopener noreferrer"
-          >coolvector, starline</a>,
+          >coolvector, starline</a>, {'\n'}
           <a href="https://smashicons.com/"
             title="Smashicons"
             target="_blank"
             rel="noopener noreferrer"
-          >Smashicons</a>,
-          e
+          >smashicons</a>,
+          e {'\n'}
           <a href="https://www.flaticon.com/authors/prettycons"
             title="prettycons"
             target="_blank"

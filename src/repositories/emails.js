@@ -16,7 +16,7 @@ const create = (email) => {
       return resposta;
     }
 
-    throw new Error('Não foi possível inscrever-se no evento.')
+    throw new Error('Não foi possível inscrever-se no evento.');
   });
 }
 
@@ -28,7 +28,7 @@ const getAll = () => {
       return resposta;
     }
 
-    throw new Error('Não foi possível carregar os dados.')
+    throw new Error('Não foi possível carregar os dados.');
   });
 }
 

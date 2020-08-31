@@ -82,7 +82,7 @@ function SectionInicio() {
           smooth={true}
           offset={-65}
           duration={500}
-          style={{ width: '100%', height: '100%' }}
+
         >
           <ScrollArrow />
         </Link>

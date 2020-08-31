@@ -19,7 +19,7 @@
 .section-sobre .wave-particles .content-sobre {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 
   text-align: center;
@@ -39,10 +39,28 @@
   text-shadow: -6px 0px var(--color-primary);
 }
 
-.section-sobre .wave-particles p {
+.section-sobre .wave-particles .text-sobre {
   font-size: 36px;
+  font-weight: 500;
   line-height: 42px;
 
   color: var(--color-secondary);
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.section-sobre .wave-particles .subscriptions {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--color-secondary);
+
+  background: var(--color-purpleDarken);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+
+  padding: .5em;
+}
+
+.section-sobre .wave-particles .subscriptions b {
+  text-shadow: 0px 0px 10px var(--color-primary);
+  text-decoration: 2px underline currentColor;
 }
