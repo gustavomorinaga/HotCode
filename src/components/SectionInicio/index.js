@@ -26,7 +26,7 @@ function SectionInicio() {
         "opacity": 0.5,
       },
       "number": {
-        "value": 25
+        "value": 20
       },
       "opacity": {
         "random": {
@@ -58,8 +58,8 @@ function SectionInicio() {
   return (
     <section className="section-inicio" id="inicio">
       <div className="bloom"></div>
-      <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(4px)' }} />
-      <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(2px)' }} />
+      <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(3px)' }} />
+      <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(1px)' }} />
       <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0 }} />
       <div className="particle-texts">
         <h1 data-aos="fade-down">

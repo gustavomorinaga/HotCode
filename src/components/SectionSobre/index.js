@@ -23,10 +23,10 @@ function SectionSobre() {
       <div className="wave-particles">
         <div className="content-sobre">
           <h2 data-aos="fade-down">Sobre o evento</h2>
-          <p data-aos="fade-up" className="text-sobre">
+          <p data-aos="fade" className="text-sobre">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit a doloribus iure quasi. Incidunt voluptatibus est doloribus minus dolor nostrum libero dicta distinctio fugit minima magnam nemo, ad amet eaque?
           </p>
-          <p className="subscriptions">
+          <p data-aos="flip-up" data-aos-anchor-placement="top-bottom" className="subscriptions">
             Mais de <b>{totalSubscriptions}</b> pessoas já se inscreveram no evento!
           </p>
           <Link
