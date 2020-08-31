@@ -1,154 +1,154 @@
 .section-aulas {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 
-  background: var(--color-grayDarken);
+	background: var(--color-grayDarken);
 
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
-  padding: 1% 5% 0;
+	padding: 1% 5% 0;
 
-  font-family: Roboto;
+	font-family: Roboto;
 }
 
 .section-aulas h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 72px;
-  line-height: 112px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 112px;
 
-  align-self: center;
+	align-self: center;
 
-  color: var(--color-logo);
-  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+	color: var(--color-logo);
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
 }
 
 .section-aulas p {
-  color: var(--color-secondary);
+	color: var(--color-secondary);
 
-  font-size: 24px;
-  line-height: 30px;
+	font-size: 24px;
+	line-height: 30px;
 }
 
 .section-aulas .content-frontend,
 .section-aulas .content-backend,
 .section-aulas .content-extra {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .section-aulas .content-frontend,
 .section-aulas .content-backend {
-  padding-bottom: 19vh;
+	padding-bottom: 19vh;
 }
 
 .section-aulas .content-frontend,
 .section-aulas .content-extra {
-  align-items: flex-start;
-  flex-direction: row;
+	align-items: flex-start;
+	flex-direction: row;
 
-  background: url('../../assets/images/svgs/background-classes.svg');
+	background: url('../../assets/images/backgrounds/background-classes.svg');
 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .section-aulas .content-extra {
-  background-position: 100% 25%;
+	background-position: 100% 25%;
 }
 
 .section-aulas .content-backend {
-  align-items: flex-start;
-  flex-direction: row-reverse;
+	align-items: flex-start;
+	flex-direction: row-reverse;
 
-  background: url('../../assets/images/svgs/background-classes-inverted.svg');
+	background: url('../../assets/images/backgrounds/background-classes-inverted.svg');
 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .section-aulas .texts {
-  width: 50%;
-  height: 100%;
+	width: 50%;
+	height: 100%;
 }
 
 .section-aulas h4 {
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 100px;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 100px;
 
-  color: var(--color-blueDarken);
+	color: var(--color-blueDarken);
 }
 
 .section-aulas .images {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 
-  width: 25%;
-  height: 90%;
+	width: 25%;
+	height: 90%;
 }
 
 .section-aulas .content-frontend .images img,
 .section-aulas .content-backend .images img,
 .section-aulas .content-extra .images img {
-  width: 45%;
+	width: 45%;
 
-  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
 
-  animation: breath 10s infinite ease-in-out;
+	animation: breath 10s infinite ease-in-out;
 }
 
 @keyframes breath {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
 }
 
 .section-aulas .content-frontend .images-right img:nth-child(1),
 .section-aulas .content-extra .images-right img:nth-child(1) {
-  align-self: flex-start;
+	align-self: flex-start;
 }
 
 .section-aulas .content-frontend .images-right img:nth-child(2),
 .section-aulas .content-extra .images-right img:nth-child(2) {
-  align-self: flex-end;
+	align-self: flex-end;
 
-  animation-delay: 1s;
+	animation-delay: 1s;
 }
 
 .section-aulas .content-frontend .images-right img:nth-child(3),
 .section-aulas .content-extra .images-right img:nth-child(3) {
-  align-self: flex-start;
+	align-self: flex-start;
 
-  animation-delay: 2s;
+	animation-delay: 2s;
 }
 
 .section-aulas .content-backend .images-left img:nth-child(1) {
-  align-self: flex-end;
+	align-self: flex-end;
 }
 
 .section-aulas .content-backend .images-left img:nth-child(2) {
-  align-self: flex-start;
+	align-self: flex-start;
 
-  animation-delay: 1s;
+	animation-delay: 1s;
 }
 
 .section-aulas .content-backend .images-left img:nth-child(3) {
-  align-self: flex-end;
+	align-self: flex-end;
 
-  animation-delay: 2s;
+	animation-delay: 2s;
 }

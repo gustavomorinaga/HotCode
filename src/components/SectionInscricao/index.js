@@ -2,6 +2,8 @@ import React from 'react';
 
 import useForm from '../../hooks/useForm';
 import EmailRepository from '../../repositories/emails';
+import ModalSuccess from '../Modal/ModalSuccess';
+import ModalFailure from '../Modal/ModalFailure';
 
 import './styles.css';
 
@@ -10,9 +12,11 @@ import AlternateEmailIcon from '@material-ui/icons/AlternateEmail';
 import NotebookImg from '../../assets/images/notebook.png';
 
 function SectionInscricao() {
-  const { handleChange, values } = useForm({
-    email: '',
-  });
+  const valoresIniciais = {
+    email: ''
+  };
+
+  const { handleChange, clearForm, values } = useForm(valoresIniciais);
 
   return (
     <section className="section-inscricao" id="inscricao">
@@ -30,13 +34,18 @@ function SectionInscricao() {
           <form onSubmit={e => {
             e.preventDefault();
 
+            const modalSuccess = document.querySelectorAll('.modal')[0];
+            const modalFailure = document.querySelectorAll('.modal')[1];
+
             EmailRepository.create({
               email: values.email
             }).then(() => {
-              alert('Inscrição realizada com sucesso!');
+              modalSuccess.classList.toggle('modal-active');
             }).catch(() => {
-              alert('Erro ao inscrever-se no evento!');
+              modalFailure.classList.toggle('modal-active');
             });
+
+            clearForm(valoresIniciais);
           }}>
             <div className="input-email">
               <div className="email-icon">
@@ -60,6 +69,8 @@ function SectionInscricao() {
           </form>
         </div>
       </section>
+      <ModalSuccess />
+      <ModalFailure />
     </section>
   );
 }

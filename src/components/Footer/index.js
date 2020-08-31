@@ -23,10 +23,26 @@ function Footer() {
             <img src={Logo} alt="Logo" />
           </div>
         </Link>
-        <a href="https://github.com/gmatthewsfeuer/HotCode" target="_blank"><GitHubIcon style={{ fontSize: '2em', color: '#fff' }} /></a>
+        <a href="https://github.com/gmatthewsfeuer/HotCode" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{ fontSize: '2em', color: '#fff' }} /></a>
       </div>
       <div className="footer-info">
-        <p>Vetores criados por <a href="https://www.freepik.com/vectors/background" target="_blank">coolvector, starline</a> e <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a></p>
+        <p>Vetores criados por
+          <a href="https://www.freepik.com/vectors/background"
+            target="_blank"
+            rel="noopener noreferrer"
+          >coolvector, starline</a>,
+          <a href="https://smashicons.com/"
+            title="Smashicons"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Smashicons</a>,
+          e
+          <a href="https://www.flaticon.com/authors/prettycons"
+            title="prettycons"
+            target="_blank"
+            rel="noopener noreferrer"
+          >prettycons</a>
+        </p>
       </div>
     </footer>
   );
