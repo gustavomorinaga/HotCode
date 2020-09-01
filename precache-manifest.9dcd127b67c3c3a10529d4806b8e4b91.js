@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c03d003e3cc533cf1666de74dd76b2ff",
+    "revision": "65da158d80766dff3d674bd2e7b6b797",
     "url": "/HotCode/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HotCode/static/css/2.eb43dee1.chunk.css"
   },
   {
-    "revision": "0e9c5ac387517b2bdc58",
-    "url": "/HotCode/static/css/main.43a8edec.chunk.css"
+    "revision": "1ea93e22270cd3bc4112",
+    "url": "/HotCode/static/css/main.82713ffd.chunk.css"
   },
   {
     "revision": "bb5ba121a2238060d2cc",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HotCode/static/js/2.f8b677fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e9c5ac387517b2bdc58",
-    "url": "/HotCode/static/js/main.9bf76712.chunk.js"
+    "revision": "1ea93e22270cd3bc4112",
+    "url": "/HotCode/static/js/main.73aad175.chunk.js"
   },
   {
     "revision": "e12bdd5e28b872c03613",
@@ -96,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HotCode/static/media/varying-stripes.a13208ca.svg"
   },
   {
-    "revision": "83f6cbb5b4ff9256f123f5d9b78c268b",
-    "url": "/HotCode/static/media/wave-particles.83f6cbb5.png"
+    "revision": "6a96cbd02a194cd18924654c13bedc11",
+    "url": "/HotCode/static/media/wave-particles.6a96cbd0.png"
   }
 ]);

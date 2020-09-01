@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/HotCode/static/css/main.43a8edec.chunk.css",
-    "main.js": "/HotCode/static/js/main.9bf76712.chunk.js",
-    "main.js.map": "/HotCode/static/js/main.9bf76712.chunk.js.map",
+    "main.css": "/HotCode/static/css/main.82713ffd.chunk.css",
+    "main.js": "/HotCode/static/js/main.73aad175.chunk.js",
+    "main.js.map": "/HotCode/static/js/main.73aad175.chunk.js.map",
     "runtime-main.js": "/HotCode/static/js/runtime-main.1ead08c5.js",
     "runtime-main.js.map": "/HotCode/static/js/runtime-main.1ead08c5.js.map",
     "static/css/2.eb43dee1.chunk.css": "/HotCode/static/css/2.eb43dee1.chunk.css",
     "static/js/2.f8b677fe.chunk.js": "/HotCode/static/js/2.f8b677fe.chunk.js",
     "static/js/2.f8b677fe.chunk.js.map": "/HotCode/static/js/2.f8b677fe.chunk.js.map",
     "index.html": "/HotCode/index.html",
-    "precache-manifest.3323d7e4d4f4540e9bb01949b300c41b.js": "/HotCode/precache-manifest.3323d7e4d4f4540e9bb01949b300c41b.js",
+    "precache-manifest.9dcd127b67c3c3a10529d4806b8e4b91.js": "/HotCode/precache-manifest.9dcd127b67c3c3a10529d4806b8e4b91.js",
     "service-worker.js": "/HotCode/service-worker.js",
     "static/css/2.eb43dee1.chunk.css.map": "/HotCode/static/css/2.eb43dee1.chunk.css.map",
-    "static/css/main.43a8edec.chunk.css.map": "/HotCode/static/css/main.43a8edec.chunk.css.map",
+    "static/css/main.82713ffd.chunk.css.map": "/HotCode/static/css/main.82713ffd.chunk.css.map",
     "static/js/2.f8b677fe.chunk.js.LICENSE.txt": "/HotCode/static/js/2.f8b677fe.chunk.js.LICENSE.txt",
     "static/media/alert.svg": "/HotCode/static/media/alert.d51e4573.svg",
-    "static/media/styles.css": "/HotCode/static/media/wave-particles.83f6cbb5.png",
+    "static/media/styles.css": "/HotCode/static/media/wave-particles.6a96cbd0.png",
     "static/media/database.png": "/HotCode/static/media/database.faabcfa2.png",
     "static/media/email.svg": "/HotCode/static/media/email.3b82b000.svg",
     "static/media/expo.png": "/HotCode/static/media/expo.4bf4f348.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.1ead08c5.js",
     "static/css/2.eb43dee1.chunk.css",
     "static/js/2.f8b677fe.chunk.js",
-    "static/css/main.43a8edec.chunk.css",
-    "static/js/main.9bf76712.chunk.js"
+    "static/css/main.82713ffd.chunk.css",
+    "static/js/main.73aad175.chunk.js"
   ]
 }
