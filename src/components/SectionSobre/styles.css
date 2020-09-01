@@ -1,66 +1,74 @@
 .section-sobre {
 	width: 100%;
-  height: calc(90vh + 10px);
-  
-  background: var(--color-black);
+	height: calc(90vh + 10px);
+
+	background: var(--color-black);
 }
 
 .section-sobre .wave-particles {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 
-	background: url('../../assets/images/wave-particles.png');
+	background: url('../../assets/images/backgrounds/wave-particles.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
-  background-attachment: fixed;
+	background-attachment: fixed;
 }
 
 .section-sobre .wave-particles .content-sobre {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
 
-  text-align: center;
+	text-align: center;
 
-  padding: 5% 5% 0;
+	padding: 5% 5% 0;
 
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .section-sobre .wave-particles h2 {
-  font-size: 96px;
-  font-weight: 700;
-  letter-spacing: 2px;
+	font-size: 96px;
+	font-weight: 700;
+	letter-spacing: 2px;
 
-  color: var(--color-white);
-  text-shadow: -6px 0px var(--color-primary);
+	color: var(--color-white);
+  text-shadow: 0px 1px 1px var(--color-primary),
+    0px 2px 1px var(--color-primary),
+    0px 3px 1px var(--color-primary),
+    0px 4px 1px var(--color-primary),
+    0px 5px 1px var(--color-primary),
+    1px 10px 6px rgba(0, 0, 0, 0.4),
+    1px 14px 10px rgba(0, 0, 0, 0.2),
+    1px 17px 35px rgba(0, 0, 0, 0.2),
+    1px 22px 60px rgba(0, 0, 0, 0.4);
 }
 
 .section-sobre .wave-particles .text-sobre {
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 42px;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 42px;
 
-  color: var(--color-secondary);
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+	color: var(--color-secondary);
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 }
 
 .section-sobre .wave-particles .subscriptions {
-  font-size: 24px;
-  font-weight: 300;
-  color: var(--color-secondary);
+	font-size: 24px;
+	font-weight: 300;
+	color: var(--color-secondary);
 
-  background: var(--color-purpleDarken);
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+	background: var(--color-purpleDarken);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 
-  padding: .5em;
+	padding: 0.5em;
 }
 
 .section-sobre .wave-particles .subscriptions b {
-  text-shadow: 0px 0px 10px var(--color-primary);
-  text-decoration: 2px underline currentColor;
+	text-shadow: 0px 0px 10px var(--color-primary);
+	text-decoration: 2px underline currentColor;
 }

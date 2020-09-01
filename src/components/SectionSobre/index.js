@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-scroll";
 
-import { getAll } from '../../repositories/emails';
 import ScrollArrow from '../ScrollArrow';
 
 import './styles.css';
