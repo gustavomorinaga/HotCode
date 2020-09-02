@@ -4,12 +4,14 @@ import { Link } from "react-scroll";
 import './styles.css';
 import Logo from '../../assets/images/icons/logo.svg';
 
+import MenuIcon from '@material-ui/icons/Menu';
 import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import ClassIcon from '@material-ui/icons/Class';
 import ScheduleIcon from '@material-ui/icons/Schedule';
 import ForumIcon from '@material-ui/icons/Forum';
 import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Header() {
   return (
@@ -38,7 +40,7 @@ function Header() {
             smooth={true}
             offset={-70}
             duration={500}
-          ><HomeIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Início</Link></li>
+          ><HomeIcon />Início</Link></li>
           <li><Link
             activeClass="active"
             to="sobre"
@@ -47,7 +49,7 @@ function Header() {
             smooth={true}
             offset={-65}
             duration={500}
-          ><InfoIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Sobre</Link></li>
+          ><InfoIcon />Sobre</Link></li>
           <li><Link
             activeClass="active"
             to="aulas"
@@ -56,7 +58,7 @@ function Header() {
             smooth={true}
             offset={-65}
             duration={500}
-          ><ClassIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Aulas</Link></li>
+          ><ClassIcon />Aulas</Link></li>
           <li><Link
             activeClass="active"
             to="agenda"
@@ -65,7 +67,7 @@ function Header() {
             smooth={true}
             offset={-65}
             duration={500}
-          ><ScheduleIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Agenda</Link></li>
+          ><ScheduleIcon />Agenda</Link></li>
           <li><Link
             activeClass="active"
             to="comunidade"
@@ -75,7 +77,7 @@ function Header() {
             offset={-65}
             duration={500}
             isDynamic={true}
-          ><ForumIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Comunidade</Link></li>
+          ><ForumIcon />Comunidade</Link></li>
           <li><Link
             activeClass="active"
             to="inscricao"
@@ -84,9 +86,15 @@ function Header() {
             smooth={true}
             offset={-70}
             duration={500}
-          ><AssignmentTurnedInIcon style={{ fontSize: '1.5em', marginRight: '3px' }} />Inscrição</Link></li>
+          ><AssignmentTurnedInIcon />Inscrição</Link></li>
         </ul>
       </nav>
+      <div className="menu-icon">
+        <MenuIcon />
+      </div>
+      <div className="github-icon">
+        <a href="https://github.com/gmatthewsfeuer/HotCode" target="_blank" rel="noopener noreferrer"><GitHubIcon style={{ fontSize: '2em', color: '#fff' }} /></a>
+      </div>
     </header>
   );
 }

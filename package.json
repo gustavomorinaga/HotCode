@@ -16,9 +16,9 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-particles-js": "^3.3.0",
     "react-scripts": "3.4.3",
-    "react-scroll": "^1.8.1"
+    "react-scroll": "^1.8.1",
+    "react-tsparticles": "^1.17.10"
   },
   "scripts": {
     "server": "node ./server.js",

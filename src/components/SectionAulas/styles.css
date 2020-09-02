@@ -7,7 +7,7 @@
 	display: flex;
 	flex-direction: column;
 
-	padding: 1% 5% 0;
+	padding: 3% 5% 0;
 
 	font-family: Roboto;
 }
@@ -15,8 +15,8 @@
 .section-aulas h3 {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 72px;
-	line-height: 112px;
+	font-size: 7.6rem;
+	line-height: 6.6rem;
 
 	align-self: center;
 
@@ -27,15 +27,14 @@
 .section-aulas p {
 	color: var(--color-secondary);
 
-	font-size: 24px;
-	line-height: 30px;
+	font-size: 2.6rem;
+	line-height: 2.6rem;
 }
 
 .section-aulas .content-frontend,
 .section-aulas .content-backend,
 .section-aulas .content-extra {
 	width: 100%;
-	height: 100%;
 
 	display: flex;
 	justify-content: space-between;
@@ -43,7 +42,7 @@
 
 .section-aulas .content-frontend,
 .section-aulas .content-backend {
-	padding-bottom: 19vh;
+	height: 85vh;
 }
 
 .section-aulas .content-frontend,
@@ -60,6 +59,9 @@
 
 .section-aulas .content-extra {
 	background-position: 100% 25%;
+
+	padding-top: 4.5vh;
+	padding-bottom: 4.5vh;
 }
 
 .section-aulas .content-backend {
@@ -78,10 +80,10 @@
 	height: 100%;
 }
 
-.section-aulas h4 {
+.section-aulas .texts h4 {
 	font-weight: bold;
-	font-size: 48px;
-	line-height: 100px;
+	font-size: 4.6rem;
+	line-height: 13.6rem;
 
 	color: var(--color-blueDarken);
 }
@@ -151,4 +153,59 @@
 	align-self: flex-end;
 
 	animation-delay: 2s;
+}
+
+@media (max-width: 700px) {
+	.section-aulas h3 {
+		font-size: 4.6rem;
+	}
+
+	.section-aulas .content-frontend,
+	.section-aulas .content-backend,
+	.section-aulas .content-extra {
+		flex-direction: column;
+
+		background: none;
+	}
+
+	.section-aulas .texts {
+		width: 100%;
+	}
+
+	.section-aulas .texts h4 {
+		font-size: 3.6rem;
+		line-height: 7.6rem;
+	}
+
+	.section-aulas .images {
+		flex-direction: row;
+
+		width: 100%;
+		height: 100%;
+	}
+
+	.section-aulas .content-frontend,
+	.section-aulas .content-backend,
+	.section-aulas .content-extra {
+		height: 80vh;
+	}
+
+	.section-aulas .content-frontend .images img,
+	.section-aulas .content-backend .images img,
+	.section-aulas .content-extra .images img {
+		width: 25%;
+
+		margin: 0 .5rem;
+	}
+
+	.section-aulas .content-frontend .images-right img,
+	.section-aulas .content-frontend .images-left img,
+	.section-aulas .content-backend .images-right img,
+	.section-aulas .content-backend .images-left img,
+	.section-aulas .content-extra .images-right img,
+	.section-aulas .content-extra .images-left img {
+		align-self: center !important;
+
+		animation: none;
+	}
 }

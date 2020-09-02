@@ -84,10 +84,14 @@
   align-self: center;
   border-bottom: 2px solid currentColor;
 
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
 
   margin-bottom: 20px;
+}
+
+.modal p {
+  font-size: 1.6rem;
 }

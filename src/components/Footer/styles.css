@@ -24,8 +24,9 @@ footer .footer-info {
 
 	height: 100%;
 
-	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 400;
+	text-align: center;
 
 	color: var(--color-gray);
 }
@@ -57,4 +58,14 @@ footer .logo img {
 	width: 30px;
 
 	transform: rotate(5deg);
+}
+
+@media (max-width: 700px) {
+	footer {
+		padding-top: 1rem;
+	}
+
+	footer .footer-info {
+		margin-top: 1.6rem;
+	}
 }

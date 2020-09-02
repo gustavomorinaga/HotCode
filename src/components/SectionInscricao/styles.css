@@ -6,6 +6,7 @@
 
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 
 	padding: 1% 5% 0;
 
@@ -21,8 +22,8 @@
 .section-inscricao h3 {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 72px;
-	line-height: 112px;
+	font-size: 7.6rem;
+	line-height: 6.6rem;
 
 	align-self: center;
 
@@ -51,15 +52,13 @@
 	padding: 3% 5%;
 
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	align-self: center;
 }
 
 .section-inscricao .card-inscricao h4 {
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 4.6rem;
 
 	margin-bottom: 3rem;
 
@@ -69,8 +68,8 @@
 .section-inscricao .card-inscricao p {
 	color: var(--color-secondary);
 
-	font-size: 24px;
-	line-height: 30px;
+	font-size: 2.6rem;
+	line-height: 2.6rem;
 }
 
 .section-inscricao .images {
@@ -88,7 +87,8 @@
 
 	color: var(--color-secondary);
 
-	font-size: 24px;
+	font-size: 2.6rem;
+	line-height: 2.6rem;
 
 	text-align: center;
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
@@ -171,7 +171,7 @@
 
 	background: var(--color-highlight-green);
 
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 500;
 	color: var(--color-secondary);
 	text-transform: uppercase;
@@ -189,4 +189,53 @@
 	background: var(--color-highlight-greenDarken);
 
 	border: 1px solid var(--color-highlight-greenDarken);
+}
+
+@media (max-width: 700px) {
+	.section-inscricao {
+		height: 100%;
+
+		padding-top: 5%;
+	}
+
+	.section-inscricao h3 {
+		font-size: 4.6rem;
+	}
+
+	.section-inscricao .card-inscricao {
+		padding: 5%;
+		margin: 1.6rem 0;
+	}
+
+	.section-inscricao .card-inscricao h4 {
+		font-size: 3.6rem;
+		text-align: center;
+	}
+
+	.section-inscricao .card-inscricao p,
+	.section-inscricao .images p {
+		font-size: 2rem;
+	}
+
+	.section-inscricao .images {
+		margin: 3.6rem 0;
+	}
+
+	.section-inscricao .images,
+	.section-inscricao .content-inscricao,
+	.section-inscricao .card-inscricao {
+		width: 100%;
+	}
+
+	.section-inscricao .content-inscricao .images img {
+		width: 75%;
+	}
+
+	.section-inscricao .content-inscricao {
+		flex-direction: column;
+	}
+
+	.section-inscricao .card-inscricao form .input-email .email-icon {
+		width: 15%;
+	}
 }

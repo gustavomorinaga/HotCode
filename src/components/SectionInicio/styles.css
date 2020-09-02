@@ -20,10 +20,31 @@
 	filter: blur(100px);
 }
 
-.particle-texts {
+.section-inicio .particles-back,
+.section-inicio .particles-mid,
+.section-inicio .particles-front {
+	display: block;
+
+	position: absolute;
+	top: var(--bodyPaddingTop);
+	left: 0;
+	right: 0;
+}
+
+.section-inicio .particles-back {
+	filter: blur(3px);
+}
+
+.section-inicio .particles-mid {
+	filter: blur(1px);
+}
+
+.section-inicio .particle-texts {
 	position: absolute;
 	top: var(--bodyPaddingTop);
 	padding: 5% 5% 0;
+	
+	width: 100%;
 	height: 90%;
 
 	display: flex;
@@ -32,62 +53,66 @@
 	box-shadow: 0px 15px 15px #000;
 }
 
-.particle-texts h1 {
+.section-inicio .particle-texts h1 {
 	font-family: 'Fira Code', monospace;
 	text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
 	font-style: normal;
 	font-weight: bold;
-	font-size: 50px;
-	line-height: 60px;
+	font-size: 5.6rem;
+	line-height: 4.6rem;
 }
 
-.particle-texts .text-center {
+.section-inicio .particle-texts .text-center {
 	width: 100%;
 	height: 100%;
 
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-direction: row;
 }
 
-.particle-texts .text-center p {
+.section-inicio .particle-texts .text-center p {
 	text-shadow: 0px 4px 5px rgba(0, 0, 0, 1);
 
-	width: 50%;
+	width: 60%;
 	height: 100%;
 	font-weight: 500;
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 3.6rem;
+	line-height: 3.6rem;
 
 	padding-top: 5vh;
 }
 
-.green-highlight {
+.section-inicio .green-highlight {
 	color: var(--color-highlight-green);
 }
 
-.yellow-highlight {
+.section-inicio .yellow-highlight {
 	color: var(--color-highlight-yellow);
 }
 
-.code-icon {
+.section-inicio .code-icon {
 	height: 50%;
+
+	display: flex;
+	justify-content: center;
 
 	clear: both;
 }
 
-.code-icon code {
+.section-inicio .code-icon code {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 144px;
-	line-height: 150px;
+	font-size: 15.6rem;
+	line-height: 14.6rem;
 
 	background: linear-gradient(
 		110deg,
-		rgba(255, 255, 255, 0.5) 45%,
+		rgba(255, 255, 255, 0.5) 40%,
 		#fff 50%,
-		rgba(255, 255, 255, 0.5) 55%
+		rgba(255, 255, 255, 0.5) 60%
 	);
 	background-size: 200% auto;
 
@@ -102,5 +127,47 @@
 @keyframes brilho {
 	to {
 		background-position: 200% center;
+	}
+}
+
+@media (max-width: 700px) {
+	.section-inicio {
+		height: 100vh;
+	}
+
+	.section-inicio .particles-back,
+	.section-inicio .particles-mid {
+		display: none;
+	}
+
+	.section-inicio .particle-texts h1 {
+		font-size: 3.6rem;
+		text-align: center;
+	}
+
+	.section-inicio .particle-texts .text-center {
+		align-items: flex-start;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.section-inicio .particle-texts .text-center p {
+		font-size: 2.6rem;
+		line-height: 2.6rem;
+
+		padding-top: 3vh;
+
+		width: 100%;
+		height: auto;
+	}
+
+	.section-inicio .code-icon {
+		width: 100%;
+
+		align-items: center;
+	}
+
+	.section-inicio .code-icon code {
+		font-size: 13.6rem;
 	}
 }

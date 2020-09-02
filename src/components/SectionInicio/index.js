@@ -1,5 +1,5 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+import Particles from "react-tsparticles";
 import { Link } from "react-scroll";
 
 import ScrollArrow from '../ScrollArrow';
@@ -8,49 +8,58 @@ import './styles.css';
 
 function SectionInicio() {
   const ParticlesParams = {
-    "detectRetina": true,
-    "fpsLimit": 30,
-    "background": {
-      "position": "50% 50%",
-      "repeat": "no-repeat",
-      "size": "cover",
+    detectRetina: true,
+    fpsLimit: 30,
+    background: {
+      position: "50% 50%",
+      repeat: "no-repeat",
+      size: "cover",
+      opacity: 1
     },
-    "particles": {
-      "color": {
-        "value": "#fff"
+    interactivity: {
+      detectsOn: "canvas",
+      events: {
+        resize: true
+      }
+    },
+    particles: {
+      color: {
+        value: "#fff"
       },
-      "links": {
-        "value": "#fff",
-        "width": 2,
-        "distance": 200,
-        "opacity": 0.5,
+      links: {
+        value: "#fff",
+        width: 2,
+        distance: 200,
+        opacity: 0.5,
+        enable: true
       },
-      "number": {
-        "value": 20
+      number: {
+        value: 20
       },
-      "opacity": {
-        "random": {
-          "enable": false
+      opacity: {
+        random: {
+          enable: false
         },
-        "value": 1
+        value: 1
       },
-      "size": {
-        "value": 4,
-        "animation": {
-          "enable": true,
-          "minimumValue": 0.5,
-          "speed": 10
+      size: {
+        value: 4,
+        animation: {
+          enable: true,
+          minimumValue: 0.5,
+          speed: 10
         },
-        "random": {
-          "enable": false
+        random: {
+          enable: true
         }
       },
-      "collisions": {
-        "enable": false,
+      collisions: {
+        enable: false,
       },
-      "move": {
-        "speed": 1,
-        "enable": true
+      move: {
+        speed: 1,
+        enable: true,
+        outMode: "bounce"
       }
     }
   }
@@ -58,9 +67,9 @@ function SectionInicio() {
   return (
     <section className="section-inicio" id="inicio">
       <div className="bloom"></div>
-      <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(3px)' }} />
-      <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0, filter: 'blur(1px)' }} />
-      <Particles width="100%" height="90vh" params={ParticlesParams} style={{ position: 'absolute', top: 'var(--bodyPaddingTop)', left: 0 }} />
+      <Particles className="particles-back" width="100%" height="90vh" id="tsparticles" options={ParticlesParams} />
+      <Particles className="particles-mid" width="100%" height="90vh" id="tsparticles" options={ParticlesParams} />
+      <Particles className="particles-front" width="100%" height="90vh" id="tsparticles" options={ParticlesParams} />
       <div className="particle-texts">
         <h1 data-aos="fade-down">
           console.<b className="green-highlight">log</b><b className="yellow-highlight">('Bora codar!')</b>;

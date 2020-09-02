@@ -11,7 +11,7 @@
 	display: flex;
 	flex-direction: column;
 
-	padding: 1% 5% 0;
+	padding: 3% 5% 0;
 
 	font-family: Roboto;
 }
@@ -19,8 +19,8 @@
 .section-agenda h3 {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 72px;
-	line-height: 112px;
+	font-size: 7.6rem;
+	line-height: 6.6rem;
 
 	align-self: center;
 
@@ -72,14 +72,8 @@
 	padding: 10%;
 }
 
-.section-agenda .content-agenda ul li:hover {
-	transform: scale(1.05);
-
-	margin: 0 1em;
-}
-
 .section-agenda .content-agenda ul li section h5 {
-	font-size: 20px;
+	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 
@@ -93,6 +87,51 @@
 	filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
 }
 
+.section-agenda .content-agenda ul li section p {
+	font-size: 1.6rem;
+}
+
 .section-agenda .arrow-content {
 	color: var(--color-secondary);
+}
+
+@media (max-width: 700px) {
+	.section-agenda {
+		height: 100%;
+	}
+
+	.section-agenda h3 {
+		font-size: 4.6rem;
+	}
+
+	.section-agenda .content-agenda ul {
+		flex-direction: column;
+
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.section-agenda .content-agenda ul li {
+		margin: 0.5em 0;
+	}
+
+	.section-agenda .content-agenda ul li:hover {
+		transform: none;
+	}
+
+	.section-agenda .content-agenda ul li [data-aos][data-aos][data-aos-delay="500"].aos-animate,
+	.section-agenda .content-agenda ul li [data-aos][data-aos][data-aos-delay="1000"].aos-animate,
+	.section-agenda .content-agenda ul li [data-aos][data-aos][data-aos-delay="1500"].aos-animate,
+	.section-agenda .content-agenda ul li [data-aos][data-aos][data-aos-delay="2000"].aos-animate,
+	.section-agenda .content-agenda ul li [data-aos][data-aos][data-aos-delay="2500"].aos-animate {
+		transition-delay: 0s;
+	}
+}
+
+@media (min-width: 738px) {
+	.section-agenda .content-agenda ul li:hover {
+		transform: scale(1.05);
+	
+		margin: 0 1em;
+	}
 }
