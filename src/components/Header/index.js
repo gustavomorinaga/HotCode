@@ -42,6 +42,7 @@ function Header() {
             duration={500}
             onClick={() => {
               document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+              document.body.classList.remove('block-overflow');
             }}
           ><HomeIcon />Início</Link></li>
           <li><Link
@@ -54,6 +55,7 @@ function Header() {
             duration={500}
             onClick={() => {
               document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+              document.body.classList.remove('block-overflow');
             }}
           ><InfoIcon />Sobre</Link></li>
           <li><Link
@@ -66,6 +68,7 @@ function Header() {
             duration={500}
             onClick={() => {
               document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+              document.body.classList.remove('block-overflow');
             }}
           ><ClassIcon />Aulas</Link></li>
           <li><Link
@@ -78,6 +81,7 @@ function Header() {
             duration={500}
             onClick={() => {
               document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+              document.body.classList.remove('block-overflow');
             }}
           ><ScheduleIcon />Agenda</Link></li>
           <li><Link
@@ -91,6 +95,7 @@ function Header() {
             isDynamic={true}
             onClick={() => {
               document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+              document.body.classList.remove('block-overflow');
             }}
           ><ForumIcon />Comunidade</Link></li>
           <li><Link
@@ -103,6 +108,7 @@ function Header() {
             duration={500}
             onClick={() => {
               document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+              document.body.classList.remove('block-overflow');
             }}
           ><AssignmentTurnedInIcon />Inscrição</Link></li>
         </ul>
@@ -112,6 +118,7 @@ function Header() {
         id="menu"
         onClick={() => {
           document.querySelectorAll('ul')[0].classList.toggle('menu-toggle');
+          document.body.classList.toggle('block-overflow');
         }}
       >
         <MenuIcon />
