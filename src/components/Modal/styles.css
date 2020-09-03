@@ -95,3 +95,9 @@
 .modal p {
   font-size: 1.6rem;
 }
+
+@media (max-width: 700px) {
+  .modal > div {
+    width: 300px;
+  }
+}
