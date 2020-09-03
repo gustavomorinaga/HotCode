@@ -40,6 +40,9 @@ function Header() {
             smooth={true}
             offset={-70}
             duration={500}
+            onClick={() => {
+              document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+            }}
           ><HomeIcon />Início</Link></li>
           <li><Link
             activeClass="active"
@@ -49,6 +52,9 @@ function Header() {
             smooth={true}
             offset={-65}
             duration={500}
+            onClick={() => {
+              document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+            }}
           ><InfoIcon />Sobre</Link></li>
           <li><Link
             activeClass="active"
@@ -58,6 +64,9 @@ function Header() {
             smooth={true}
             offset={-65}
             duration={500}
+            onClick={() => {
+              document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+            }}
           ><ClassIcon />Aulas</Link></li>
           <li><Link
             activeClass="active"
@@ -67,6 +76,9 @@ function Header() {
             smooth={true}
             offset={-65}
             duration={500}
+            onClick={() => {
+              document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+            }}
           ><ScheduleIcon />Agenda</Link></li>
           <li><Link
             activeClass="active"
@@ -77,6 +89,9 @@ function Header() {
             offset={-65}
             duration={500}
             isDynamic={true}
+            onClick={() => {
+              document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+            }}
           ><ForumIcon />Comunidade</Link></li>
           <li><Link
             activeClass="active"
@@ -86,10 +101,19 @@ function Header() {
             smooth={true}
             offset={-70}
             duration={500}
+            onClick={() => {
+              document.querySelectorAll('ul')[0].classList.remove('menu-toggle');
+            }}
           ><AssignmentTurnedInIcon />Inscrição</Link></li>
         </ul>
       </nav>
-      <div className="menu-icon">
+      <div
+        className="menu-icon"
+        id="menu"
+        onClick={() => {
+          document.querySelectorAll('ul')[0].classList.toggle('menu-toggle');
+        }}
+      >
         <MenuIcon />
       </div>
       <div className="github-icon">
