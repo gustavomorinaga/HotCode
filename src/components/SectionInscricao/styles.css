@@ -33,7 +33,7 @@
 
 .section-inscricao .content-inscricao {
 	width: 100%;
-	height: 70%;
+	height: 100%;
 
 	display: flex;
 	justify-content: space-between;
@@ -191,7 +191,9 @@
 	border: 1px solid var(--color-highlight-greenDarken);
 }
 
-@media (max-width: 700px) {
+/* MOBILE */
+
+@media (max-width: 500px) and (max-height: 1000px) and (orientation: portrait) {
 	.section-inscricao {
 		height: 100%;
 
@@ -237,5 +239,68 @@
 
 	.section-inscricao .card-inscricao form .input-email .email-icon {
 		width: 15%;
+	}
+}
+
+@media (max-width: 1200px) and (max-height: 800px) and (orientation: landscape) {
+	.section-inscricao h3 {
+		font-size: 4.6rem;
+		line-height: 4.6rem;
+	}
+
+	.section-inscricao .card-inscricao {
+		padding: 2.6rem 2.6rem;
+		margin: 1.6rem 0;
+	}
+
+	.section-inscricao .card-inscricao h4 {
+		font-size: 2.6rem;
+		line-height: 2.6rem;
+
+		margin-bottom: 1rem;
+	}
+
+	.section-inscricao .card-inscricao p,
+	.section-inscricao .images p {
+		font-size: 1.6rem;
+		line-height: 1.6rem;
+	}
+
+	.section-inscricao .content-inscricao .images img {
+		width: 60%;
+	}
+
+	.section-inscricao .card-inscricao form .input-email .email-icon {
+		width: 15%;
+	}
+
+	.section-inscricao .card-inscricao form input {
+		height: 40px;
+	}
+
+	.section-inscricao .card-inscricao form button {
+		padding: 5px;
+	}
+}
+
+/* APARELHOS MENORES */
+
+@media (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
+	.section-inscricao h3 {
+		font-size: 3.6rem;
+	}
+
+	.section-inscricao .card-inscricao h4 {
+		font-size: 2.6rem;
+	}
+
+	.section-inscricao .card-inscricao p,
+	.section-inscricao .images p {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	.section-inscricao .card-inscricao form .input-email .email-icon {
+		width: 20%;
 	}
 }

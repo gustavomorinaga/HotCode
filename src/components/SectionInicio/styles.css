@@ -129,7 +129,9 @@
 	}
 }
 
-@media (max-width: 700px) {
+/* MOBILE */
+
+@media (max-width: 500px) and (max-height: 1000px) and (orientation: portrait) {
 	.section-inicio {
 		height: 100vh;
 	}
@@ -175,5 +177,64 @@
 		background-clip: text;
 		-webkit-background-clip: unset;
 		-webkit-text-fill-color: unset;
+	}
+}
+
+@media (max-width: 1200px) and (max-height: 800px) and (orientation: landscape) {
+	.section-inicio .particles-back,
+	.section-inicio .particles-mid {
+		display: none;
+	}
+
+	.section-inicio .particle-texts {
+		padding-top: 1%;
+	}
+
+	.section-inicio .particle-texts h1 {
+		font-size: 3.6rem;
+		line-height: 5.6rem;
+	}
+
+	.section-inicio .particle-texts .text-center {
+		align-items: flex-start;
+	}
+
+	.section-inicio .particle-texts .text-center p {
+		font-size: 2rem;
+		line-height: 2rem;
+
+		padding-top: 3vh;
+
+		width: 100%;
+		height: auto;
+	}
+
+	.section-inicio .code-icon code {
+		font-size: 12.6rem;
+		color: rgba(255, 255, 255, 0.5);
+
+		background: none;
+		animation: none;
+		background-clip: text;
+		-webkit-background-clip: unset;
+		-webkit-text-fill-color: unset;
+	}
+}
+
+/* APARELHOS MENORES */
+
+@media (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
+	.section-inicio .particle-texts h1 {
+		font-size: 2.6rem;
+		line-height: 3.6rem;
+	}
+
+	.section-inicio .particle-texts .text-center p {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	.section-inicio .code-icon code {
+		font-size: 10.6rem;
 	}
 }

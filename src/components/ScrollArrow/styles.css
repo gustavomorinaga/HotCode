@@ -28,6 +28,7 @@
   position: absolute;
 	margin-bottom: 75px;
 	transition: color .3s;
+	font-size: 1.6rem;
 
 	text-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
 }
@@ -42,6 +43,7 @@
 }
 
 .scroll-down .arrow-content:hover span {
+	font-size: 1.6rem;
 	color: var(--color-secondary);
 }
 
@@ -61,5 +63,14 @@
 	100% {
 		-webkit-transform: translate(0, 0);
 		transform: translate(0, 0);
+	}
+}
+
+@media (max-width: 1200px) and (max-height: 800px) and (orientation: landscape) {
+	.scroll-down .arrow-content span {
+		font-size: 1.3rem;
+	}
+	.scroll-down .arrow-content .arrow-down {
+		font-size: 64px;
 	}
 }

@@ -70,7 +70,9 @@
 	text-decoration: 2px underline currentColor;
 }
 
-@media (max-width: 700px) {
+/* MOBILE */
+
+@media (max-width: 500px) and (max-height: 1000px) and (orientation: portrait) {
 	.section-sobre .wave-particles {
 		display: flex;
 		flex-direction: column;
@@ -88,5 +90,52 @@
 
 	.section-sobre .wave-particles .content-sobre {
 		justify-content: space-around;
+	}
+}
+
+@media (max-width: 1200px) and (max-height: 800px) and (orientation: landscape) {
+	.section-sobre .wave-particles {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.section-sobre .wave-particles h2 {
+		font-size: 4.6rem;
+	}
+
+	.section-sobre .wave-particles .text-sobre {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	.section-sobre .wave-particles .content-sobre {
+		justify-content: space-around;
+	}
+
+	.section-sobre .wave-particles .content-sobre {
+		padding-top: 1%;
+	}
+
+	.section-sobre .wave-particles .subscriptions {
+		font-size: 2rem;
+	}
+}
+
+/* APARELHOS MENORES */
+
+@media (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
+	.section-sobre .wave-particles h2 {
+		font-size: 3.6rem;
+		line-height: 3.6rem;
+	}
+
+	.section-sobre .wave-particles .text-sobre {
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+
+	.section-sobre .wave-particles .subscriptions {
+		font-size: 2rem;
 	}
 }
