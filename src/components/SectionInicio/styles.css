@@ -188,6 +188,8 @@
 
 	.section-inicio .particle-texts {
 		padding-top: 1%;
+
+		height: 100%;
 	}
 
 	.section-inicio .particle-texts h1 {

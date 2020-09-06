@@ -37,13 +37,27 @@ function SectionInscricao() {
             const modalSuccess = document.querySelectorAll('.modal')[0];
             const modalFailure = document.querySelectorAll('.modal')[1];
 
-            EmailRepository.create({
-              email: values.email
-            }).then(() => {
-              modalSuccess.classList.toggle('modal-active');
-            }).catch(() => {
-              modalFailure.classList.toggle('modal-active');
-            });
+            const mensagemValidacao = document.getElementById('erro-email');
+            console.log(mensagemValidacao);
+
+            function validateEmail(email) {
+              const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+              return re.test(String(email).toLowerCase());
+            }
+
+            if (validateEmail(values.email) === true) {
+              mensagemValidacao.classList.remove('show-erro-email');
+
+              EmailRepository.create({
+                email: values.email
+              }).then(() => {
+                modalSuccess.classList.toggle('modal-active');
+              }).catch(() => {
+                modalFailure.classList.toggle('modal-active');
+              });
+            } else {
+              mensagemValidacao.classList.add('show-erro-email');
+            }
 
             clearForm(valoresIniciais);
           }}>
@@ -63,6 +77,9 @@ function SectionInscricao() {
                 />
               </label>
             </div>
+            <span className="erro-email" id="erro-email">
+              Por favor, insira corretamente o seu e-mail
+            </span>
             <button type="submit">
               Quero participar
             </button>

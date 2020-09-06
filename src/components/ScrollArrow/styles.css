@@ -43,7 +43,6 @@
 }
 
 .scroll-down .arrow-content:hover span {
-	font-size: 1.6rem;
 	color: var(--color-secondary);
 }
 

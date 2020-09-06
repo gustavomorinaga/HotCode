@@ -60,7 +60,7 @@
 	font-weight: bold;
 	font-size: 4.6rem;
 
-	margin-bottom: 3rem;
+	margin-bottom: 2.6rem;
 
 	color: var(--color-blue);
 }
@@ -112,7 +112,7 @@
 
 	width: 100%;
 
-	margin-bottom: 20px;
+	margin-bottom: 1.6rem;
 }
 
 .section-inscricao .card-inscricao form .input-email .email-icon {
@@ -189,6 +189,18 @@
 	background: var(--color-highlight-greenDarken);
 
 	border: 1px solid var(--color-highlight-greenDarken);
+}
+
+.section-inscricao .card-inscricao form .erro-email {
+	color: var(--color-redDarken);
+
+	margin-bottom: 1.6rem;
+
+	display: none;
+}
+
+.show-erro-email {
+	display: block !important;
 }
 
 /* MOBILE */
