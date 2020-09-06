@@ -61,6 +61,7 @@ function SectionAgenda() {
         smooth={true}
         offset={-65}
         duration={500}
+        style={{ margin: '0 auto' }}
       >
         <ScrollArrow />
       </Link>

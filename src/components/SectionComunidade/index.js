@@ -29,7 +29,7 @@ function SectionComunidade() {
         smooth={true}
         offset={-70}
         duration={500}
-
+        style={{ margin: '0 auto' }}
       >
         <ScrollArrow />
       </Link>
