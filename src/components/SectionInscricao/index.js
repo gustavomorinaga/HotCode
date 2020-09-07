@@ -51,8 +51,10 @@ function SectionInscricao() {
               EmailRepository.create({
                 email: values.email
               }).then(() => {
+                document.body.classList.toggle('block-overflow');
                 modalSuccess.classList.toggle('modal-active');
               }).catch(() => {
+                document.body.classList.toggle('block-overflow');
                 modalFailure.classList.toggle('modal-active');
               });
             } else {

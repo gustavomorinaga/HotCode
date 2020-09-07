@@ -77,6 +77,9 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+
+		background: url('../../assets/images/backgrounds/wave-particles-mobile.png');
+		background-size: contain;
 	}
 
 	.section-sobre .wave-particles h2 {
