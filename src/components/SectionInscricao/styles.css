@@ -190,13 +190,19 @@
 
 	cursor: pointer;
 
-	transition: background-color 0.3s;
+	transition: all 0.3s;
 }
 
 .section-inscricao .card-inscricao form button:hover {
 	background: var(--color-highlight-greenDarken);
 
 	border: 1px solid var(--color-highlight-greenDarken);
+}
+
+.section-inscricao .card-inscricao form button:active {
+	background: var(--color-highlight-greenDarkness);
+
+	border: 1px solid var(--color-highlight-greenDarkness);
 }
 
 .section-inscricao .card-inscricao form .erro-email {
@@ -213,7 +219,7 @@
 
 /* MOBILE */
 
-@media (max-width: 500px) and (max-height: 1000px) and (orientation: portrait) {
+@media (max-width: 800px) and (max-height: 1366px) {
 	.section-inscricao {
 		height: 100%;
 
@@ -262,7 +268,7 @@
 	}
 }
 
-@media (max-width: 1200px) and (max-height: 800px) and (orientation: landscape) {
+@media (max-width: 1024px) and (max-height: 800px) {
 	.section-inscricao h3 {
 		font-size: 4.6rem;
 		line-height: 4.6rem;

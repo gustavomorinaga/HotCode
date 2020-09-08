@@ -146,7 +146,7 @@ header .menu-icon:active {
 
 /* MOBILE */
 
-@media (max-width: 500px) and (max-height: 1000px) and (orientation: portrait) {
+@media (max-width: 1024px) and (max-height: 1366px) {
 	header nav ul {
 		position: absolute;
 		left: 0;
@@ -188,7 +188,7 @@ header .menu-icon:active {
 	}
 }
 
-@media (max-width: 1200px) and (max-height: 800px) and (orientation: landscape) {
+@media (max-width: 900px) and (max-height: 500px) and (orientation: landscape) {
 	header nav ul {
 		position: absolute;
 		left: 0;

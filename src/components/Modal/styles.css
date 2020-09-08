@@ -65,6 +65,10 @@
   background: var(--color-redDarken);
 }
 
+.modal .close-modal:active {
+  background: var(--color-redDarkness);
+}
+
 .modal .modal-success,
 .modal .modal-failure {
   display: flex;

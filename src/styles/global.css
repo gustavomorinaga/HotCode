@@ -11,6 +11,7 @@
 	--color-grayDarken: #1a1a1b;
 	--color-highlight-green: #04d361;
 	--color-highlight-greenDarken: #03b955;
+	--color-highlight-greenDarkness: #03a14a;
 	--color-highlight-yellow: #ffef5c;
 	--color-primary: #7209b7;
 	--color-secondary: #f0f0f7;
@@ -18,6 +19,7 @@
 	--color-logo: #bf60ff;
 	--color-red: #FF4B4B;
 	--color-redDarken: #FF3232;
+	--color-redDarkness: #df2727;
 	--color-white: #fff;
 	
 	font-size: 60%;
