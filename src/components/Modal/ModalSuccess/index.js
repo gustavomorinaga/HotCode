@@ -13,7 +13,6 @@ function ModalSuccess() {
     <Modal>
       <button className="close-modal" onClick={() => {
         document.querySelectorAll('.modal')[0].classList.toggle('modal-active');
-        document.body.classList.toggle('block-overflow');
       }}>
         <CloseIcon className="modal-close" style={{ fontSize: 30 }} />
       </button>

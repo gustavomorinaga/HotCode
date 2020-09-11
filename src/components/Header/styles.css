@@ -74,11 +74,11 @@ header nav ul li a {
 
 	font-size: 1.6rem;
 
-	transition: transform .3s;
+	transition: transform .1s;
 }
 
 header nav ul li a:active {
-	transform: scale(0.95);
+	transform: scale(0.9);
 }
 
 header nav ul li a:after {

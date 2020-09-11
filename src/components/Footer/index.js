@@ -30,7 +30,10 @@ function Footer() {
           <a href="https://www.freepik.com/vectors/background"
             target="_blank"
             rel="noopener noreferrer"
-          >coolvector, starline</a>, {'\n'}
+          >coolvector</a>, <a href="https://www.freepik.com/vectors/background"
+          target="_blank"
+          rel="noopener noreferrer"
+        >starline</a>, {'\n'}
           <a href="https://smashicons.com/"
             title="Smashicons"
             target="_blank"

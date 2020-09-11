@@ -13,7 +13,6 @@ function ModalFailure() {
     <Modal>
       <button className="close-modal" onClick={() => {
         document.querySelectorAll('.modal')[1].classList.toggle('modal-active');
-        document.body.classList.toggle('block-overflow');
       }}>
         <CloseIcon className="modal-close" style={{ fontSize: 30 }} />
       </button>

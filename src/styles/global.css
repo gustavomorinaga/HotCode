@@ -35,6 +35,24 @@
 	scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+	background: var(--color-grayDarken);
+
+	width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--color-gray);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #808080;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background: #606060;
+}
+
 html,
 body,
 #root {

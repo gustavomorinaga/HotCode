@@ -29,7 +29,7 @@ function SectionInscricao() {
         <div className="card-inscricao" data-aos="flip-left">
           <h4>Inscreva-se para o evento</h4>
           <p>
-            Digite seu e-mail abaixo para participar, iremos-lhe mandar as próximas instruções:
+            Digite seu e-mail abaixo para participar, iremos-lhe enviar as próximas instruções:
           </p>
           <form onSubmit={e => {
             e.preventDefault();
@@ -38,7 +38,6 @@ function SectionInscricao() {
             const modalFailure = document.querySelectorAll('.modal')[1];
 
             const mensagemValidacao = document.getElementById('erro-email');
-            console.log(mensagemValidacao);
 
             function validateEmail(email) {
               // eslint-disable-next-line
@@ -52,10 +51,8 @@ function SectionInscricao() {
               EmailRepository.create({
                 email: values.email
               }).then(() => {
-                document.body.classList.toggle('block-overflow');
                 modalSuccess.classList.toggle('modal-active');
               }).catch(() => {
-                document.body.classList.toggle('block-overflow');
                 modalFailure.classList.toggle('modal-active');
               });
             } else {
