@@ -23,7 +23,10 @@ function SectionSobre() {
         <div className="content-sobre">
           <h2 data-aos="fade-down">Sobre o evento</h2>
           <p data-aos="fade" className="text-sobre">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit a doloribus iure quasi. Incidunt voluptatibus est doloribus minus dolor nostrum libero dicta distinctio fugit minima magnam nemo, ad amet eaque?
+            Consiste numa semana recheada de conteúdo intensivo, 
+            onde você terá uma ótima base de conhecimento Full-Stack e de planejamento dos 
+            seus projetos, em que você pode levar para a sua carreira como dev. Ao final do evento, 
+            você terá um projeto pronto para adicionar ao seu portfólio!
           </p>
           <p data-aos="flip-up" data-aos-anchor-placement="top-bottom" className="subscriptions">
             Mais de <b>{totalSubscriptions}</b> pessoas já se inscreveram no evento!

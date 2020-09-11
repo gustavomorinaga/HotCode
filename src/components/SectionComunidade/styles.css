@@ -38,6 +38,10 @@
 	line-height: 2.6rem;
 }
 
+.section-comunidade p b {
+	color: var(--color-highlight-red);
+}
+
 .section-comunidade .content-comunidade {
 	width: 100%;
 	height: 100%;

@@ -28,7 +28,9 @@ function SectionAulas() {
         <div className="texts" data-aos="flip-right">
           <h4>Front-End</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui delectus nemo exercitationem minus reprehenderit. Possimus quia nam doloribus, doloremque suscipit amet quas, cumque accusamus, quidem soluta nemo recusandae culpa.
+            Iremos utilizar <b>HTML</b> e <b>CSS</b> para estruturação e estilização das páginas, 
+            além de usar o <b>React</b> para facilitar o reuso de componentes e implementação de funções
+            no projeto.
           </p>
         </div>
         <div className="images images-right">
@@ -41,7 +43,9 @@ function SectionAulas() {
         <div className="texts" data-aos="flip-left">
           <h4>Back-End</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui delectus nemo exercitationem minus reprehenderit. Possimus quia nam doloribus, doloremque suscipit amet quas, cumque accusamus, quidem soluta nemo recusandae culpa.
+            Com <b>Node.js</b>, podemos gerenciar e instalar todas as dependências do nosso projeto, 
+            estruturando e conectando o banco de dados via <b>GraphQL</b> e 
+            validando os testes de APIs no <b>Insomnia</b>.
           </p>
         </div>
         <div className="images images-left">
@@ -54,7 +58,9 @@ function SectionAulas() {
         <div className="texts" data-aos="flip-right">
           <h4>Conteúdo Bônus</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui delectus nemo exercitationem minus reprehenderit. Possimus quia nam doloribus, doloremque suscipit amet quas, cumque accusamus, quidem soluta nemo recusandae culpa.
+            Iremos desenvolver uma versão mobile com <b>Expo</b> e, por fim, 
+            você aprenderá a criar protótipos do seu próprio projeto com <b>Whimsical</b> e montar
+            o design das páginas no <b>Figma</b>.
           </p>
         </div>
         <div className="images images-right">

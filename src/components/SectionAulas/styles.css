@@ -31,6 +31,14 @@
 	line-height: 2.6rem;
 }
 
+.section-aulas p b {
+	font-weight: 900;
+
+	letter-spacing: 1px;
+
+	color: var(--color-highlight-red);
+}
+
 .section-aulas .content-frontend,
 .section-aulas .content-backend,
 .section-aulas .content-extra {

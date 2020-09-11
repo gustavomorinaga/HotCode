@@ -4,14 +4,9 @@ import Main from './pages/Main';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { aosConfig } from './utils/aosConfig';
 
-AOS.init({
-  offset: 200,
-  duration: 600,
-  easing: 'ease-in-out-sine',
-  delay: 150,
-  once: true
-});
+AOS.init(aosConfig);
 
 function App() {
   return (

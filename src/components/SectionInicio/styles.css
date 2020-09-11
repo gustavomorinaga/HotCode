@@ -3,7 +3,7 @@
 	height: 100vh;
 
 	background: #000;
-	color: white;
+	color: var(--color-white);
 	font-family: Roboto;
 }
 
@@ -90,6 +90,10 @@
 
 .section-inicio .yellow-highlight {
 	color: var(--color-highlight-yellow);
+}
+
+.section-inicio .red-highlight {
+	color: var(--color-highlight-red);
 }
 
 .section-inicio .code-icon {

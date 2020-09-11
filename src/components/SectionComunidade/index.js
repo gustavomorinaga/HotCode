@@ -16,9 +16,11 @@ function SectionComunidade() {
           <img src={DiscordLogo} alt="Discord Logotipo" data-aos="fade" data-aos-anchor-placement="bottom-bottom" />
         </div>
         <div className="texts" data-aos="flip-left">
-          <h4>Dev bom, é Dev ativo</h4>
+          <h4>Dev Bom, é Dev Ativo</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui delectus nemo exercitationem minus reprehenderit. Possimus quia nam doloribus, doloremque suscipit amet quas, cumque accusamus, quidem soluta nemo recusandae culpa.
+            Você não estará só nesse evento: participe da nossa comunidade oficial 
+            no <b>Discord</b> para tirar suas dúvidas e ajudar outros participantes, 
+            além de ter a chance de ganhar um prêmio por colaboração!
           </p>
         </div>
       </section>
