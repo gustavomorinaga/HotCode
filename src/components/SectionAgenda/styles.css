@@ -56,6 +56,12 @@
 	transition: all 0.3s;
 }
 
+.section-agenda .content-agenda ul li:hover {
+	margin: 0 1em;
+
+	transform: scale(1.05);
+}
+
 .section-agenda .content-agenda ul li section {
 	width: 225px;
 	height: 325px;
@@ -94,7 +100,7 @@
 
 /* MOBILE */
 
-@media (max-width: 1024px) and (max-height: 1366px) {
+@media (max-width: 800px) and (max-height: 1366px) {
 	.section-agenda {
 		height: 100%;
 	}
@@ -104,7 +110,7 @@
 	}
 
 	.section-agenda .content-agenda ul {
-		flex-direction: column;
+		flex-direction: column !important;
 
 		margin-top: 1rem;
 		margin-bottom: 1rem;
@@ -116,6 +122,8 @@
 
 	.section-agenda .content-agenda ul li:hover {
 		transform: none;
+
+		margin: 0.5em 0 !important;
 	}
 
 	.section-agenda
@@ -157,6 +165,10 @@
 		line-height: 5.6rem;
 	}
 
+	.section-agenda .content-agenda ul {
+		flex-direction: row;
+	}
+
 	.section-agenda .content-agenda ul li section {
 		width: 125px;
 		height: 200px;
@@ -168,9 +180,9 @@
 	}
 
 	.section-agenda .content-agenda ul li:hover {
-		transform: none !important;
+		transform: none;
 
-		margin: 0 0.5em !important;
+		margin: 0 0.5em;
 	}
 
 	.section-agenda .content-agenda ul li section p {
@@ -184,16 +196,18 @@
 
 /* APARELHOS MENORES */
 
-@media (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
+@media (max-width: 540px) and (max-height: 1000px) and (orientation: portrait) {
 	.section-agenda h3 {
 		font-size: 3.6rem;
 	}
-}
 
-@media (min-width: 738px) {
-	.section-agenda .content-agenda ul li:hover {
-		transform: scale(1.05);
+	.section-agenda .content-agenda ul li section img {
+		width: 80px;
+		height: 80px;
+	}
 
-		margin: 0 1em;
+	.section-agenda .content-agenda ul li section {
+		width: 23.6rem;
+		height: 25.6rem;
 	}
 }
