@@ -1,5 +1,4 @@
 {
-  "homepage": "http://gmatthewsfeuer.github.io/HotCode",
   "name": "hotcode",
   "version": "0.1.0",
   "private": true,
@@ -23,8 +22,6 @@
   },
   "scripts": {
     "server": "node ./server.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "concurrently \"react-scripts start\" \"npm run server\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
