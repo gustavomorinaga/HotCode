@@ -19,7 +19,7 @@ function Erro() {
 				<Link
 					data-aos="fade-up"
 					data-aos-anchor-placement="top-bottom"
-					to="/HotCode/"
+					to="/"
 					className="button-voltar"
 				>
 					Voltar ao site

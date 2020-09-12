@@ -8,7 +8,7 @@ function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/HotCode/" component={Main} exact />
+        <Route path="/" component={Main} exact />
         <Route component={Erro} />
       </Switch>
     </BrowserRouter>
