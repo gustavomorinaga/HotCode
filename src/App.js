@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Main from './pages/Main';
+import Routes from './routes';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -10,10 +10,7 @@ AOS.init(aosConfig);
 
 function App() {
   return (
-    <div className="container">
-      <Main />
-      {console.log('Bora codar!')}
-    </div>
+    <Routes />
   );
 }
 

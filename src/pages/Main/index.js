@@ -18,6 +18,7 @@ function Main() {
       <SectionAgenda />
       <SectionComunidade />
       <SectionInscricao />
+      {console.log('Bora codar!')}
     </PageDefault>
   );
 }

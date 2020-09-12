@@ -5,13 +5,13 @@ import Footer from '../Footer';
 
 function PageDefault ({ children }) {
   return (
-    <>
+    <div className="container">
       <Header />
         <main>
           {children}
         </main>
       <Footer />
-    </>
+    </div>
   );
 }
 
