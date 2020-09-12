@@ -49,20 +49,20 @@ Foram considerados os seguintes parâmetros para o desenvolvimento do projeto:
 - Gustavo Matheus Morinaga Cardoso
 
 ![GitHub followers](https://img.shields.io/github/followers/gmatthewsfeuer?style=social)
-<a href="https://www.instagram.com/gmatthews_feuer/" target="_blank">
+<a href="https://www.instagram.com/gmatthews_feuer/" target="_blank" rel="noopener noreferrer">
   <img src="./src/assets/images/logos/instagram.png" width="24" height="24"/>
 </a>
-<a href="https://www.facebook.com/gustavomatheus.cardoso" target="_blank">
+<a href="https://www.facebook.com/gustavomatheus.cardoso" target="_blank" rel="noopener noreferrer">
   <img src="./src/assets/images/logos/facebook.png" width="24" height="24"/>
 </a>
 
 - Matheus Felipe Magalhães de Abreu
 
 ![GitHub followers](https://img.shields.io/github/followers/MatheusFelipeM?style=social)
-<a href="https://www.instagram.com/matheuskiller04/" target="_blank">
+<a href="https://www.instagram.com/matheuskiller04/" target="_blank" rel="noopener noreferrer">
   <img src="./src/assets/images/logos/instagram.png" width="24" height="24"/>
 </a>
-<a href="https://www.facebook.com/profile.php?id=100004069982740" target="_blank">
+<a href="https://www.facebook.com/profile.php?id=100004069982740" target="_blank" rel="noopener noreferrer">
   <img src="./src/assets/images/logos/facebook.png" width="24" height="24"/>
 </a>
 
