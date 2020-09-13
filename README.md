@@ -1,7 +1,7 @@
 # ☕ Bem-vindo ao HotCode!
 
 <p align="center">
-  <img src="./src/assets/images/logos/HotCode-Logo.png" alt="Logotipo da HotCode" />
+  <img src="./src/assets/images/logos/HotCode-Logo.png" alt="Logotipo da HotCode" style="filter: drop-shadow(0 0 10px rgba(0,0,0,.5));" />
 </p>
 
 [![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
