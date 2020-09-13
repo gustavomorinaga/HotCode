@@ -38,6 +38,8 @@
 
 .section-comunidade p b {
 	color: var(--color-highlight-red);
+	font-weight: 900;
+	letter-spacing: 1px;
 }
 
 .section-comunidade .content-comunidade {

@@ -94,6 +94,8 @@
 
 .section-inicio .red-highlight {
 	color: var(--color-highlight-red);
+	font-weight: 900;
+	letter-spacing: 1px;
 }
 
 .section-inicio .code-icon {
