@@ -1,6 +1,6 @@
 # ☕ Bem-vindo ao HotCode!
 
-<p align="center">
+<p align="center" style="background-color: #1a1a1b;border-radius: 5px;">
   <img src="./src/assets/images/logos/HotCode-Logo.png" alt="Logotipo da HotCode" />
 </p>
 
