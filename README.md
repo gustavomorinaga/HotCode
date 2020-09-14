@@ -24,9 +24,9 @@
   </a>
 </p>
 
-<div>
-  <img src="./src/assets/images/demo/demo_hotcode_desktop.gif" alt="demo desktop" height="425px">
-  <img src="./src/assets/images/demo/demo_hotcode_mobile.gif" alt="demo mobile" height="425">
+<div align="center">
+  <img src="./src/assets/images/demo/demo_hotcode_desktop.gif" alt="demo desktop" width="600px" height="300px">
+  <img src="./src/assets/images/demo/demo_hotcode_mobile.gif" alt="demo mobile" height="300px">
 </div>
 
 ---
