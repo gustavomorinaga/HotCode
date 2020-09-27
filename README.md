@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="./src/assets/images/logos/HotCode_Logo.png" alt="Logotipo da HotCode" />
+  <img src="./docs/images/HotCode_Logo.png" alt="Logotipo da HotCode" />
 <br>
 <br>
   HotCode
@@ -25,8 +25,8 @@
 </p>
 
 <div align="center">
-  <img src="./src/assets/images/demo/demo_hotcode_desktop.gif" alt="demo desktop" width="600px" height="300px">
-  <img src="./src/assets/images/demo/demo_hotcode_mobile.gif" alt="demo mobile" height="300px">
+  <img src="./docs/demo/demo_hotcode_desktop.gif" alt="demo desktop" width="600px" height="300px">
+  <img src="./docs/demo/demo_hotcode_mobile.gif" alt="demo mobile" height="300px">
 </div>
 
 ---

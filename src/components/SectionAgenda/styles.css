@@ -2,7 +2,7 @@
 	width: 100%;
 	height: 90vh;
 
-	background: url('../../assets/images/backgrounds/varying-stripes.svg');
+	background: url('../../assets/images/backgrounds/varying-stripes-darken.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -66,9 +66,9 @@
 	width: 225px;
 	height: 325px;
 
-	background: var(--color-secondary);
+	background: var(--color-grayDark);
 	border-radius: 5px;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
 	display: flex;
 	align-items: center;
@@ -76,14 +76,17 @@
 	flex-direction: column;
 
 	padding: 10%;
+
+	color: var(--color-white);
 }
 
 .section-agenda .content-agenda ul li section h5 {
 	font-size: 2rem;
+	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 
-	color: var(--color-purpleDarken);
+	color: var(--color-logo);
 }
 
 .section-agenda .content-agenda ul li section img {
